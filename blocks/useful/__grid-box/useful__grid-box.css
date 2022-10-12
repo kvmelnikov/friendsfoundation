@@ -1,0 +1,6 @@
+.useful__grid-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(504px, 1fr));
+    gap: 24px;
+    
+}

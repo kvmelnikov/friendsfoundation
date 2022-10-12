@@ -1,0 +1,11 @@
+.usefule__link{
+    font-family: 'Berlin Type';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-decoration: none;
+    color: #000000;
+    padding-bottom: 69px;
+    cursor: pointer;
+}

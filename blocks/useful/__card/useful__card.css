@@ -1,0 +1,7 @@
+.usefule__card{
+    background: rgba(235, 233, 230, .4);
+    max-width: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

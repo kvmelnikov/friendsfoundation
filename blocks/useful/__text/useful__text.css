@@ -1,0 +1,7 @@
+.usfule__text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    max-width: 303px;
+    padding-left: 44px;
+}
