@@ -1,4 +1,4 @@
-.usefule__link{
+.useful__link{
     font-family: 'Berlin Type';
     font-style: normal;
     font-weight: 400;
@@ -8,4 +8,9 @@
     color: #000000;
     padding-bottom: 69px;
     cursor: pointer;
+}
+@media screen and (max-width: 500px){
+    .useful__link{
+        padding-bottom: 81px;
+    }
 }

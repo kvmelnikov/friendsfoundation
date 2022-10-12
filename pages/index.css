@@ -14,6 +14,7 @@
 @import url(../blocks/useful/__card/useful__card.css);
 @import url(../blocks/useful/__text/useful__text.css);
 @import url(../blocks/useful/__logo/useful__logo.css);
-
+@import url(../blocks/useful/_logo-change/__size/useful_logo-change__size.css);
+@import url(../blocks/useful/_logo-change/__padding/usefule_logo-change__padding.css);
 
 
