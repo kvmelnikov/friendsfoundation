@@ -1,0 +1,10 @@
+.statistics__count {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 92px;
+    line-height: 96px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 16px;
+}

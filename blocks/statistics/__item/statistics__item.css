@@ -1,0 +1,19 @@
+.statistics__item {
+    max-width: 240px;
+    margin: 36px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+@media screen and (max-width: 480px) {
+    .statistics__item {
+        margin-right: 0;
+    }
+
+    .statistics__item:last-child {
+        margin-bottom: 56px;
+    }
+}
