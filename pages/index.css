@@ -6,7 +6,13 @@
 @import url(../blocks/page/page.css);
 
 
+/* payments */
+
+@import url(../blocks/payments/payments.css);
+@import url(../blocks/payments/_type/payments_type_mini.css);
+@import url(../blocks/payments/__title/payments__title.css);
+@import url(../blocks/payments/__cursive/payments__cursive.css);
 
 
-
-
+/* form */
+@import url(../blocks/form/form.css);
