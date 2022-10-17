@@ -5,6 +5,27 @@
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
 
+@import url('../blocks/content/content.css');
+@import url('../blocks/content/__programs/content__programs.css');
+
+@import url('../blocks/programs/programs.css');
+@import url('../blocks/programs/__title/programs__title.css');
+@import url('../blocks/program/program.css');
+@import url('../blocks/program/_color/program_color_sky-blue.css');
+@import url('../blocks/program/_color/program_color_blue.css');
+@import url('../blocks/program/_color/program_color_pink.css');
+@import url('../blocks/program/__info/program__info.css');
+@import url('../blocks/program/__logo-wrapper/program__logo-wrapper.css');
+@import url('../blocks/program/__logo/program__logo.css');
+@import url('../blocks/program/__logo-text/program__logo-text.css');
+@import url('../blocks/program/__title/program__title.css');
+@import url('../blocks/program/__text/program__text.css');
+@import url('../blocks/program/__button/program__button.css');
+@import url('../blocks/program/__image-wrapper/program__image-wrapper.css');
+@import url('../blocks/program/__image/program__image.css');
+
+
+
 
 
 

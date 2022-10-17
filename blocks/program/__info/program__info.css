@@ -1,0 +1,14 @@
+.program__info {
+    margin: 88px 0 126px 124px;
+    padding: 0;
+    color: #fff;
+    max-width: 465px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+    .program__info {
+        margin-left: 24px;
+    }
+}

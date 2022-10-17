@@ -1,21 +1,70 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Добро</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body class="body">
   <div class="page">
-      <section class="programs">
-         <h2 class="programs__title">Наши программы</h2>
-         <div class="program">
-          
-         </div>
+    <main class="content">
+      <!--Programs section-->
+      <section class="programs content__programs">
+        <h2 class="programs__title">Наши программы</h2>
+        <div class="program program_color_sky-blue">
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-procharity.svg" alt="Лого Procharity" class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">ProCharity</h3>
+            <p class="program__text">Скорая интеллектуальная помощь для благотворительных фондов</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+          <div class="program__image-wrapper">
+            <img class="program__image" src="./images/programs/procharity-notebook.png" alt="Ноутбук">
+          </div>
+        </div>
+
+        <div class="program program_color_blue">
+          <div class="program__image-wrapper">
+            <img class="program__image" src="./images/programs/students.png" alt="Студенты">
+          </div>
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-school.svg" alt="Лого Московской школы" class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">Московская школа профессиональной филантропии</h3>
+            <p class="program__text">Повышение квалификации и профессионализма сотрудников НКО</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+
+        </div>
+
+        <div class="program program_color_pink">
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-proffesionals.svg" alt="Лого команды профессионалов"
+                class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">Команда профессионалов</h3>
+            <p class="program__text">Стратегическое развитие и менторская поддержка
+              социальных проектов и НКО</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+          <div class="program__image-wrapper">
+            <img class="program__image" src="./images/programs/professionals.png" alt="Профессионалы">
+          </div>
+        </div>
       </section>
+    </main>
   </div>
-  <script src="./scripts/initial-сards.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
+
 </html>

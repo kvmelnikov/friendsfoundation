@@ -1,0 +1,14 @@
+.program {
+    padding: 0;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 490px;
+}
+
+@media screen and (max-width: 480px) {
+    .program {
+        justify-content: center;
+        align-items: center;
+    }
+}
