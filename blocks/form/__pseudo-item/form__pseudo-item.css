@@ -1,0 +1,14 @@
+.form__pseudo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    position: relative;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.form__pseudo-item:hover {
+    cursor: pointer;
+    opacity: .8;
+}

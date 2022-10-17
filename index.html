@@ -9,41 +9,41 @@
 <body class="body">
   <div class="page">
     <section class="payments payments_type_mini">
-      <h3 class="payments__title">Поддержите «друзей» или станьте<span class="payments__cursive"> нашим партнером</span></h3>
+      <h3 class="payments__title">Поддержите «друзей»<br> или станьте<br><span class="payments__cursive"> нашим партнером</span></h3>
       <form class="payments__form form">
           <h3 class="form__heading">Поддержать Друзей:</h3>
-          <fieldset>
-            <label for="onesPayment">
-              <input class="form__item" type="radio" id="onesPayment" name="payment"  value="ones">
-              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
-              <span class="form__label-text">РАЗОВОЕ</span>
+          <fieldset class="form__container form__container_type_payment ">
+            <label class="form__label form__label_type_payment" for="onesPayment">
+              <input class="form__item form__item_el_radio" type="radio" id="onesPayment" name="payment"  value="ones">
+              <span class="form__pseudo-item form__pseudo-item_type_payment">РАЗОВОЕ</span>
             </label>
-            <label for="monthsPayment">
-              <input class="form__item" type="radio" id="monthsPayment" name="payment" value="months" checked>
-              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
-              <span class="form__label-text">ЕЖЕМЕСЯЧНОЕ</span></label>
+            <label class="form__label form__label_type_payment" for="monthsPayment">
+              <input class="form__item form__item_el_radio" type="radio" id="monthsPayment" name="payment" value="months" checked>
+              <span class="form__pseudo-item form__pseudo-item_type_payment">ЕЖЕМЕСЯЧНОЕ</span>
             </label>
           </fieldset>
-          <fieldset>
-            <label for="value5000">
-              <input class="form__item" type="radio" id="value5000" name="sum" value="5000">
-              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
-              <span class="form__label-text">5000</span></label>
+          <fieldset class="form__container form__container_type_value_payment ">
+            <label class="form__label form__label_type_value-payment" for="value5000">
+              <input class="form__item form__item_el_radio" type="radio" id="value5000" name="sum" value="5000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">5000</span>
             </label>
-            <label for="value10000">
-              <input class="form__item" type="radio" id="value10000" name="sum" value="10000">
-              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
-              <span class="form__label-text">10000</span></label>
+            <label class="form__label form__label_type_value-payment" for="value10000">
+              <input class="form__item form__item_el_radio" type="radio" id="value10000" name="sum" value="10000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">10000</span>
             </label>
-            <label for="value50000">
-              <input class="form__item" type="radio" id="value50000" name="sum" value="50000">
-              <span class="form__pseudo-item form__pseudo-item_type_radio"></span>
-              <span class="form__label-text">50000</span></label>
+            <label class="form__label form__label_type_value-payment" for="value50000">
+              <input class="form__item form__item_el_radio" type="radio" id="value50000" name="sum" value="50000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">50000</span>
             </label>
           </fieldset>
-            <input class="form__item" type="text">
-            <button type="submit" class="form__button">Поддержать фонд</button>
-         
+          <fieldset class="form__container">
+            <label  class="form__label form_label_type_icon-rub">
+              <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Другая сумма">
+            </label>
+          </fieldset>
+          <fieldset class="form__container">
+              <button type="submit" class="form__button form__button_color_green">Поддержать фонд</button>
+          </fieldset>
       </form>      
     </section>
   </div>
