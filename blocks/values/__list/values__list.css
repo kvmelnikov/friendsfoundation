@@ -1,0 +1,20 @@
+.values__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    align-items: baseline;
+    justify-content: center;
+    margin-bottom: 109px;
+}
+
+@media screen and (max-width: 507px) {
+    .values__list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
