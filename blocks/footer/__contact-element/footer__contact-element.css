@@ -1,0 +1,12 @@
+.footer__contact-element {
+    font-family:'Inter', Arial, Helvetica, sans-serif;
+    color: #999;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    margin-right: 64px;
+}
+
+.footer__contact-element:nth-child(3) {
+    margin-right: 0;
+}
