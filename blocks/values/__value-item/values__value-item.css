@@ -4,51 +4,35 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    margin-right: 44px;
-    margin-top: 0;
-    margin-bottom: 56px;
+    margin: 0 42px 40px 0;
 }
 
 .values__value-item:nth-of-type(5) {
     margin-bottom: 0;
-    margin-right: 155px;
+    margin-right: 118px;
 }
 
 .values__value-item:last-child {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 966px) {
-
-    .values__value-item:nth-of-type(4){
-        margin-bottom: 56px;
-        margin-right: 88px;
+@media screen and (max-width: 1018px) {
+    .values__value-item:nth-of-type(4) {
+        margin-right: 42px;
     }
-
-    .values__value-item:nth-of-type(5){
-        margin-bottom: 56px;
-        margin-right: 100px;
+    .values__value-item:nth-of-type(5) {
+        margin-right: 42px;
     }
-}
-
-@media screen and (max-width: 780px) {
-
-    .values__value-item:nth-of-type(4){
-        margin-bottom: 56px;
-        margin-right: 56px;
-    }
-
-    
 }
 
 @media screen and (max-width: 480px) {
     .values__value-item {
         margin: 0;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .values__value-item:last-child{
-        margin-bottom: 56px;
+        margin-bottom: 0;
     }
 
     .values__value-item:nth-of-type(4){
@@ -57,5 +41,6 @@
 
     .values__value-item:nth-of-type(5){
          margin-right: 0;
+         margin-bottom: 40px;
     }
 }
