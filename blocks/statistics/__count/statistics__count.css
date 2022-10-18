@@ -1,10 +1,18 @@
 .statistics__count {
     font-style: normal;
     font-weight: 700;
-    font-size: 92px;
+    font-size: 90px;
     line-height: 96px;
     text-align: center;
     margin: 0;
     padding: 0;
     margin-bottom: 16px;
+}
+
+@media screen and (max-width: 480px) {
+    .statistics__count {
+        font-size: 54px;
+        line-height: 78px;
+        margin-bottom: 0;
+    }
 }
