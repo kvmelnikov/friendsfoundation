@@ -1,0 +1,10 @@
+.form__container_type_value_payment {
+  justify-content: space-between;
+  margin-bottom: 34px;
+}
+
+@media screen and (max-width: 481px) { 
+  .form__container_type_value_payment {
+    flex-wrap: wrap;
+  }
+}

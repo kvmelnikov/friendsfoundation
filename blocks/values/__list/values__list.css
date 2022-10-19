@@ -1,0 +1,33 @@
+.values__list {
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    margin: 0 auto 109px;
+    align-items: baseline;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1018px) {
+    .values__list {
+        display: grid;
+        grid-template-columns: repeat(3, 240px);
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .values__list {
+        grid-template-columns: repeat(2, 240px);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .values__list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 56px;
+    }
+}
