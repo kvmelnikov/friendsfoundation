@@ -11,6 +11,54 @@
 <body class="body">
   <div class="page">
     <main class="content">
+      <!--Hero-->
+      <section class="hero">
+        <div class="slider slider-hero" data-slider>
+          <div class="slider__container">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div class="slider-hero__item slider-hero__item_help-foundation">
+                  <div class="slider-hero__overlay"></div>
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title slider-hero__title_foundation">Мы <span class="slider-hero__title-italic">помогаем</span> фондам, чтобы они <span class="slider-hero__title-italic">помогали</span> другим</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Фонд &laquo;Друзья&raquo;&nbsp;&mdash;</span> это фонд для тех, кто хочет приносить пользу другим людям ничего за&nbsp;это не&nbsp;беря.</p>
+                    <button type="button" name="button" class="slider-hero__button">Наши программы</button>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-hero__item slider-hero__item_school">
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title">Создаем настоящую <span class="slider-hero__title-italic">школу</span>, <span class="slider-hero__title-italic">институт</span> благотворительности</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; это фактически акселератор НКО-проектов, который создает сообщество профессионалов.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class=" slider-hero__item slider-hero__item_procharity">
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title">Профессионализм и опыт <span class="slider-hero__titl-italic">в дар</span></h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; cкорая интеллектуальная помощь для благотворительных фондов.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <button class="slider__control slider-hero__controle" data-slide="prev">
+            <span class="sr-only">Go Left</span>
+          </button>
+          <button class="slider__control slider-hero__controle" data-slide="next">
+            <span class="sr-only">Go Right</span>
+          </button>
+    
+          <ol class="slider__indicators">
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </section>
       <!--Statistics-->
       <section class="statistics content__statistics">
         <ul class="statistics__list">
@@ -141,6 +189,7 @@
     </main>
   </div>
   <script src="./scripts/script.js"></script>
+  <script src="./vendor/slider.js"></script>
 </body>
 
 </html>
