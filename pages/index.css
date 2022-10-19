@@ -4,6 +4,9 @@
 @import url(../fonts/fonts.css);
 @import url(../blocks/body/body.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/content/content.css);
+
+/* values */
 
 @import url('../blocks/content/content.css');
 @import url('../blocks/content/__values/content__values.css');
@@ -16,10 +19,44 @@
 @import url('../blocks/values/__text/values__text.css');
 
 
+/* payments */
 
+@import url(../blocks/payments/payments.css);
+@import url(../blocks/payments/_type/payments_type_mini.css);
+@import url(../blocks/payments/__title/payments__title.css);
+@import url(../blocks/payments/__cursive/payments__cursive.css);
+@import url(../blocks/payments/__form/payments__form.css);
 
+/* useful */
 
+@import url(../blocks/useful/useful.css);
+@import url(../blocks/useful/__title/useful__title.css);
+@import url(../blocks/useful/__paragraph/useful__paragraph.css);
+@import url(../blocks/useful/__link/useful__link.css);
+@import url(../blocks/useful/__grid-box/useful__grid-box.css);
+@import url(../blocks/useful/__card/useful__card.css);
+@import url(../blocks/useful/__text/useful__text.css);
+@import url(../blocks/useful/__logo/useful__logo.css);
+@import url(../blocks/useful/_logo-change/__size/useful_logo-change__size.css);
+@import url(../blocks/useful/_logo-change/__padding/usefule_logo-change__padding.css);
 
+/* form */
 
-
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__heading/form__heading.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__container/_type/form__container_type_payment.css);
+@import url(../blocks/form/__container/_type/form__container_type_value_payment.css);
+@import url(../blocks/form/__handlers/form__handlers.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_radio.css);
+@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_payment.css);
+@import url(../blocks/form/__label/_type/form__label_type_payment.css);
+@import url(../blocks/form/__label/_type/form__label_type_value-payment.css);
+@import url(../blocks/form/__label/_type/form_label_type_icon-rub.css);
+@import url(../blocks/form/__item/_el/form__item_el_text.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_color/form__button_color_green.css);
 
