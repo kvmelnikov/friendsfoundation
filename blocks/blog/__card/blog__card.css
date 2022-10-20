@@ -1,0 +1,12 @@
+.blog__card{
+    max-width: 328px;
+    background: #F8F8F8;
+}
+@media screen and (max-width:680px){
+    .blog__cards{
+        display: flex;
+        justify-content: center;
+        user-select: none;
+        will-change: transform;
+    }
+}

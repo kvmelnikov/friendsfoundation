@@ -2,9 +2,11 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Добро</title>
   <link rel="stylesheet" href="./pages/index.css">
+  <script src="./scripts/blog-slider.js" defer></script>
 </head>
 <body class="body">
   <div class="page">
@@ -17,34 +19,91 @@
               <p class="useful__paragraph">Как научиться быть настоящим филантропом?</p>
             <a href="" class="useful__link">Читать</a>
             </div>
-            <img src="./images/hends-logo.png" alt="" class="useful__logo">
+            <img src="./images/hends-logo.svg" alt="" class="useful__logo">
           </div>
           <div class="useful__card">
             <div class="useful__text">
               <p class="useful__paragraph">Лучшие книги о благотворительности</p>
               <a href="" class="useful__link">Читать</a>
             </div>
-            <img src="./images/book-logo.png" alt="" class="useful__logo useful_logo-change__padding">
+            <img src="./images/book-logo.svg" alt="" class="useful__logo useful_logo-change__padding">
           </div>
           <div class="useful__card">
             <div class="useful__text">
               <p class="useful__paragraph">Как проверить благотворительный фонд?</p>
               <a href="" class="useful__link">Читать</a>
             </div>           
-            <img src="./images/verify-logo.png" alt="" class="useful__logo useful_logo-change__size useful_logo-change__padding">
+            <img src="./images/verify-logo.svg" alt="" class="useful__logo useful_logo-change__size useful_logo-change__padding">
           </div>
           <div class="useful__card">
             <div class="useful__text">
               <p class="useful__paragraph">Отчетность фонда</p>
               <a href="" class="useful__link">Смотреть</a>
             </div>   
-            <img src="./images/report-logo.png" alt="" class="useful__logo useful_logo-change__size useful_logo-change__padding">
+            <img src="./images/report-logo.svg" alt="" class="useful__logo useful_logo-change__size useful_logo-change__padding">
           </div>
         </div>
       </section>
+      <section class="blog" data-slider>
+        <h1 class="blog__title">Блог</h1>
+        <div class="blog__container">
+          <div class="blog__cards">
+          <div class="blog__main-card">
+            <p class="blog__main-card-date">7 Июля 2021</p>
+            <h2 class="blog__main-card-title">Россияне 
+              и благотворительность</h2>
+            <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
+          </div>
+          <div class="blog__card blog__main-card_visible">
+            <img src="./images/main-card.svg" alt="" class="blog__card-img">
+            <p class="blog__card-date">7 Июля 2021</p>
+            <h2 class="blog__card-title">Россияне 
+              и благотворительность</h2>
+            <p class="blog__card-text">Что статистика знает о добрых делах</p>
+          </div>
+          <div class="blog__card">
+            <img src="./images/university-card.svg" alt="" class="blog__card-img">
+            <p class="blog__card-date">7 Июля 2021</p>
+            <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
+            <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+          </div>
+          <div class="blog__card">
+            <img src="./images/for-the-poor-card.svg" alt="" class="blog__card-img">
+            <p class="blog__card-date">7 Июля 2021</p>
+            <h2 class="blog__card-title">Благотворительность в России</h2>
+            <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
+          </div>
+          <div class="blog__card">
+            <img src="./images/box-card.svg" alt="" class="blog__card-img">
+            <p class="blog__card-date">7 Июля 2021</p>
+            <h2 class="blog__card-title">Кому жертвуют в России?</h2>
+            <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+          </div>
+          <div class="blog__card">
+            <img src="./images/people-card.svg" alt="" class="blog__card-img">
+            <p class="blog__card-date">7 Июля 2021</p>
+            <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
+            <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
+          </div>
+          </div>
+        </div>
+        <button class="blog__slider-control" data-slide="prev">
+          <span class="blog__sr-only">Go Left</span>
+        </button>
+        <button class="blog__slider-control" data-slide="next">
+          <span class="blog__sr-only">Go Right</span>
+        </button>
+        <ol class="blog__slider-indicators">
+          <li class="blog__slider-indicator" data-slide-to="0"></li>
+          <li class="blog__slider-indicator" data-slide-to="1"></li>
+          <li class="blog__slider-indicator" data-slide-to="2"></li>
+          <li class="blog__slider-indicator" data-slide-to="3"></li>
+          <li class="blog__slider-indicator" data-slide-to="4"></li>
+        </ol>
+        <button class="blog__button">Перейти в блог</button>
+      </section>
     </main>
   </div>
-  <script src="./scripts/initial-сards.js"></script>
   <script src="./scripts/script.js"></script>
 </body>
 </html>
