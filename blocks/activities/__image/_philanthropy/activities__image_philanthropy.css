@@ -1,0 +1,25 @@
+.activities__image_philanthropy {
+  margin-top: 37px;
+  margin-right: 21px;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__image_philanthropy {
+    margin-right: 10px;
+    max-width: 140px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__image_philanthropy {
+    margin-right: 0;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__image_philanthropy {
+    max-width: 96px;
+    margin: 23px 16px 7px 0;
+  }
+}

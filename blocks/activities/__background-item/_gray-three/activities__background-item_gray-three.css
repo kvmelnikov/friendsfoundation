@@ -1,0 +1,10 @@
+.activities__background-item_gray-three {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 228px;
+  top: 342px;
+  background: #F8F8F8;
+  border-radius: 50%;
+  z-index: -1;
+}

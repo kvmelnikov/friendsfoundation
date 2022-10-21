@@ -1,0 +1,35 @@
+.activities__title {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 48px;
+  color: #000000;
+  width: 503px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__title {
+    font-size: 34px;
+    line-height: 44px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__title {
+    font-size: 28px;
+    line-height: 38px;
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__title {
+    font-size: 29px;
+    line-height: 42px;
+    max-width: 327px;
+  }
+}
