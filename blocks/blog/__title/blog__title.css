@@ -7,3 +7,10 @@
     text-align: center;
     margin: 96px auto 56px;
 }
+@media screen and (max-width:680px){
+    .blog__title{
+        font-size: 29px;
+        line-height: 44px;
+        margin: 56px auto 24px;
+    }
+}
