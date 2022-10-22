@@ -1,3 +1,14 @@
 .footer__link {
-    
+    margin-left: 16px;
+    color: #77C5D5;
+    text-decoration: none;
+}
+ 
+.footer__link:visited {
+    color: #77C5D5;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    opacity: .8;
 }
