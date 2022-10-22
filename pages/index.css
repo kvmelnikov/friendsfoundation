@@ -18,3 +18,11 @@
 @import url(../blocks/useful/_logo-change/__padding/usefule_logo-change__padding.css);
 
 
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe/__description/subscribe__description.css);
+@import url(../blocks/subscribe/__title/subscribe__title.css);
+@import url(../blocks/subscribe/__subtitle/subscribe__subtitle.css);
+@import url(../blocks/subscribe/__input/subscribe__input.css);
+@import url(../blocks/subscribe/__btn-submit/subscribe__btn-submit.css);
+@import url(../blocks/subscribe/__form/subscribe__form.css);
+

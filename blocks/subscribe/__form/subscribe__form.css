@@ -1,0 +1,13 @@
+.subscribe__form {
+    display: flex;
+    gap: 18px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .subscribe__form {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+  }
