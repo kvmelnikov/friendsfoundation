@@ -118,7 +118,6 @@
 @import url(../blocks/friends/__img/friends__img.css);
 @import url(../blocks/friends/__controle/friends__controle.css);
 @import url(../blocks/friends/__container/friends__container.css);
-@import url(../blocks/friends/__indicators/friends__indicators.css);
 @import url(../blocks/friends/__item/_back/friends__item_back.css);
 @import url(../blocks/friends/__container/_position/friends__container_position.css);
 @import url(../blocks/friends/__img/_position/friends__img_position.css);
@@ -149,7 +148,6 @@
 @import url(../blocks/blog/__cards/blog__cards.css);
 @import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
 @import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
-@import url(../blocks/blog/__sr-only/blog__sr-only.css);
 @import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
 
 /* form */
