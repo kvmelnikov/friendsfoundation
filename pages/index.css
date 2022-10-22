@@ -104,6 +104,28 @@
 @import url(../blocks/useful/_logo-change/__size/useful_logo-change__size.css);
 @import url(../blocks/useful/_logo-change/__padding/usefule_logo-change__padding.css);
 
+/* friends */
+
+@import url(../blocks/friends/friends.css);
+@import url(../blocks/friends/__title/friends__title.css);
+@import url(../blocks/friends/__subtitle/friends__subtitle.css);
+@import url(../blocks/friends/__subtitle-bold/friends__subtitle-bold.css);
+@import url(../blocks/friends/__slider/friends__slider.css);
+@import url(../blocks/friends/__slider-title/friends__slider-title.css);
+@import url(../blocks/friends/__slider-title-italic/friends__slider-title-italic.css);
+@import url(../blocks/friends/__item/friends__item.css);
+@import url(../blocks/friends/__indicator/riends__indicator.css);
+@import url(../blocks/friends/__img/friends__img.css);
+@import url(../blocks/friends/__controle/friends__controle.css);
+@import url(../blocks/friends/__container/friends__container.css);
+@import url(../blocks/friends/__indicators/friends__indicators.css);
+@import url(../blocks/friends/__item/_back/friends__item_back.css);
+@import url(../blocks/friends/__container/_position/friends__container_position.css);
+@import url(../blocks/friends/__img/_position/friends__img_position.css);
+@import url(../blocks/friends/__img/_size/friends__img_size.css);
+@import url(../blocks/friends/__text/friends__text.css);
+@import url(../blocks/friends/__text/_position/friends__text_position.css);
+@import url(../blocks/friends/__slider-container/friends__slider-container.css);
 
 /* blog */
 
