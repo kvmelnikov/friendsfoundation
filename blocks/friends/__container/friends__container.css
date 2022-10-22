@@ -1,0 +1,17 @@
+
+.friends__container{
+    display: flex;
+    min-height: 546px;
+    align-items: center;
+
+  }
+  @media screen and (max-width:612px){ 
+    .friends__container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  }
+} 
+
+
+  
