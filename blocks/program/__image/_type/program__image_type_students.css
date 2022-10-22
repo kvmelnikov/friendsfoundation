@@ -1,0 +1,31 @@
+.program__image_type_students {
+    position: relative;
+    padding-top: 12px;
+}
+
+
+@media screen and (max-width: 1253px) {
+    .program__image_type_students{
+        padding-top: 82px;
+    }
+}
+
+
+
+@media screen and (max-width: 987px) {
+    .program__image_type_students {
+        padding-top: 86px;
+    }
+}
+
+@media screen and (max-width: 758px) {
+    .program__image_type_students {
+        padding-top: 184px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .program__image_type_students{
+        padding-top: 194px;
+    }
+}

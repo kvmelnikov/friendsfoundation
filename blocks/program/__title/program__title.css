@@ -3,6 +3,19 @@
     padding: 0;
     font-style: normal;
     font-weight: 700;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 40px;
+    max-width: 550px;
+}
+
+@media screen and (max-width: 897px) {
+    .program__title {
+        margin-bottom: 24px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .program__title {
+        font-size: 30px;
+    }
 }

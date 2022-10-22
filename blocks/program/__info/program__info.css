@@ -1,14 +1,31 @@
 .program__info {
-    margin: 88px 0 126px 124px;
+    margin: 88px 0 0 124px;
     padding: 0;
     color: #fff;
-    max-width: 465px;
     display: flex;
     flex-direction: column;
+
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 969px) {
+    .program__info {
+        margin-top: 32px;
+        margin-left: 24px;
+   
+    }
+}
+
+@media screen and (max-width: 640px) {
     .program__info {
         margin-left: 24px;
+        margin-bottom: 40px;
+        margin-top: 32px;
+        margin-right: 24px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .program__info {
+        margin-right: 0;
     }
 }

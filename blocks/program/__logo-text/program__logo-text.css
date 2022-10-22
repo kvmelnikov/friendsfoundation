@@ -9,3 +9,9 @@
     margin-left: 12px;
     opacity: 0.6;
 }
+
+@media screen and (max-width: 897px) {
+    .program__logo-text {
+        margin-bottom: 4px;
+    }
+}
