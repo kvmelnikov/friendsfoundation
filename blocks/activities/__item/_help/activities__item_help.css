@@ -1,0 +1,40 @@
+.activities__item_help {
+  background: #DE6F7E;
+  margin-left: 448px;
+  margin-top: -54px;
+  max-width: 416px;
+  max-height: 163px;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__item_help {
+    margin-left: 286px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__item_help {
+    margin-left: 226px;
+    max-width: 320px;
+    max-height: 125px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__item_help {
+    margin-left: 140px;
+    margin-top: -20px;
+    max-width: 250px;
+    max-height: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__item_help {
+    margin-left: 47px;
+    margin-top: -7px;
+    z-index: 8;
+    max-width: 300px;
+    max-height: 103px;
+  }
+}
