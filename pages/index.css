@@ -25,6 +25,38 @@
 @import url(../blocks/slider-hero/__title/_foundation/slider-hero__title_foundation.css);
 @import url(../blocks/slider-hero/__title/slider-hero__title.css);
 
+/* activities*/
+
+@import url(../blocks/activities/activities.css);
+@import url(../blocks/activities/__background-item/_big-block/activities__background-item_big-block.css);
+@import url(../blocks/activities/__background-item/_blue/activities__background-item_blue.css);
+@import url(../blocks/activities/__background-item/_gray-one/activities__background-item_gray-one.css);
+@import url(../blocks/activities/__background-item/_gray-three/activities__background-item_gray-three.css);
+@import url(../blocks/activities/__background-item/_gray-two/activities__background-item_gray-two.css);
+@import url(../blocks/activities/__background-item/_mint-four/activities__background-item_mint-four.css);
+@import url(../blocks/activities/__background-item/_mint-one/activities__background-item_mint-one.css);
+@import url(../blocks/activities/__background-item/_mint-three/activities__background-item_mint-three.css);
+@import url(../blocks/activities/__background-item/_mint-two/activities__background-item_mint-two.css);
+@import url(../blocks/activities/__background-item/_orange/activities__background-item_orange.css);
+@import url(../blocks/activities/__background-item/_pink-one/activities__background-item_pink-one.css);
+@import url(../blocks/activities/__background-item/_pink-two/activities__background-item_pink-two.css);
+@import url(../blocks/activities/__image/_business/activities__image_business.css);
+@import url(../blocks/activities/__image/_help/activities__image_help.css);
+@import url(../blocks/activities/__image/_philanthropy/activities__image_philanthropy.css);
+@import url(../blocks/activities/__image/_volunteers/activities__image_volunteers.css);
+@import url(../blocks/activities/__item/_business/activities__item_business.css);
+@import url(../blocks/activities/__item/_help/activities__item_help.css);
+@import url(../blocks/activities/__item/_philanthropy/activities__item_philanthropy.css);
+@import url(../blocks/activities/__item/_volunteers/activities__item_volunteers.css);
+@import url(../blocks/activities/__item/activities__item.css);
+@import url(../blocks/activities/__items/activities__items.css);
+@import url(../blocks/activities/__pharagraph-bold/activities__pharagraph-bold.css);
+@import url(../blocks/activities/__pharagraph-container/activities__pharagraph-container.css);
+@import url(../blocks/activities/__pharagraph-items/activities__pharagraph-items.css);
+@import url(../blocks/activities/__pharagraph/activities__pharagraph.css);
+@import url(../blocks/activities/__text-container/activities__text-container.css);
+@import url(../blocks/activities/__title/activities__title.css);
+
 /* values */
 
 @import url('../blocks/content/content.css');
@@ -95,6 +127,31 @@
 @import url(../blocks/friends/__text/_position/friends__text_position.css);
 @import url(../blocks/friends/__slider-container/friends__slider-container.css);
 
+/* blog */
+
+@import url(../blocks/blog/blog.css);
+@import url(../blocks/blog/__title/blog__title.css);
+@import url(../blocks/blog/__main-card/blog__main-card.css);
+@import url(../blocks/blog/__main-card-title/blog__main-card-title.css);
+@import url(../blocks/blog/__main-card-text/blog__main-card-text.css);
+@import url(../blocks/blog/__main-card-date/blog__main-card-date.css);
+@import url(../blocks/blog/__container/blog__container.css);
+@import url(../blocks/blog/__card/blog__card.css);
+@import url(../blocks/blog/__card-title/blog__card-title.css);
+@import url(../blocks/blog/__card-text/blog__card-text.css);
+@import url(../blocks/blog/__card-img/blog__card-img.css);
+@import url(../blocks/blog/__card-date/blog__card-date.css);
+@import url(../blocks/blog/__button/blog__button.css);
+@import url(../blocks/blog/__slider-control/blog__slider-control.css);
+@import url(../blocks/blog/__slider-indicator/bolg__slider-indicator.css);
+@import url(../blocks/blog/__slider-indicators/blog__slider-indicators.css);
+@import url(../blocks/blog/__main-card/_visible/blog__main-card_visible.css);
+@import url(../blocks/blog/__cards/blog__cards.css);
+@import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
+@import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
+@import url(../blocks/blog/__sr-only/blog__sr-only.css);
+@import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
+
 /* form */
 
 @import url(../blocks/form/form.css);
@@ -115,3 +172,17 @@
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__button/_color/form__button_color_green.css);
 
+/* footer */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__nav/footer__nav.css);
+@import url(../blocks/footer/__contacts/footer__contacts.css);
+@import url(../blocks/footer/__contact-element/footer__contact-element.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__contact-element/_type/footer__contact-element_type_social.css);
+@import url(../blocks/footer/__social-link/footer__social-link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+@import url(../blocks/footer/__copyright-element/footer__copyright-element.css);
+@import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_text.css);
+@import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_copyright.css);
+@import url(../blocks/footer/__text/footer__text.css);

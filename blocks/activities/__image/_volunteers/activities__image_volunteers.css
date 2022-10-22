@@ -1,0 +1,24 @@
+.activities__image_volunteers {
+  margin: 31px 42px 0 38px;
+}
+
+@media screen and (max-width: 840px) {
+  .activities__image_volunteers {
+    max-width: 80px;
+    margin-right: 32px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__image_volunteers {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__image_volunteers {
+    max-width: 62px;
+    margin: 18px 23px 0 21px;
+  }
+}
