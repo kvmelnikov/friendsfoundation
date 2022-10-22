@@ -1,0 +1,27 @@
+.activities__background-item_gray-one {
+  position: absolute;
+  top: 180px;
+  right: 0;
+  width: 151px;
+  height: 63px;
+  background: #F8F8F8;
+  border-radius: 136px;
+  z-index: -1;
+}
+
+@media screen and (max-width: 690px) {
+  .activities__background-item_gray-one {
+    width: 110px;
+    height: 40px;
+    top: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_gray-one {
+    width: 95px;
+    height: 40px;
+    top: 168px;
+    right: -38px;
+  }
+}

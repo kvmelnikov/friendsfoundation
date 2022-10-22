@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,9 +8,154 @@
   <title>Добро</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
+
 <body class="body">
   <div class="page">
     <main class="content">
+      <!--Hero-->
+      <section class="slider-hero">
+        <div class="slider slider-hero__slider" data-slider data-autoplay="true" data-interval="10000">
+          <div class="slider__container">
+            <div class="slider__items">
+              <div class="slider__item">
+                <div class="slider-hero__item slider-hero__item_help-foundation">
+                  <div class="slider-hero__overlay"></div>
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title slider-hero__title_foundation">Мы <span class="slider-hero__title-italic">помогаем</span> фондам, чтобы они <span class="slider-hero__title-italic">помогали</span> другим</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Фонд &laquo;Друзья&raquo;&nbsp;&mdash;</span> это фонд для тех, кто хочет приносить пользу другим людям ничего за&nbsp;это не&nbsp;беря.</p>
+                    <button type="button" name="button" class="slider-hero__button">Наши программы</button>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class="slider-hero__item slider-hero__item_school">
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title">Создаем настоящую <span class="slider-hero__title-italic">школу</span>, <span class="slider-hero__title-italic">институт</span> благотворительности</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; это фактически акселератор НКО-проектов, который создает сообщество профессионалов.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider__item">
+                <div class=" slider-hero__item slider-hero__item_procharity">
+                  <div class="slider-hero__container">
+                    <h1 class="slider-hero__title">Профессионализм и опыт <span class="slider-hero__title-italic">в дар</span></h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; cкорая интеллектуальная помощь для благотворительных фондов.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <button class="slider__control slider-hero__controle" data-slide="prev">
+            <span class="sr-only">Go Left</span>
+          </button>
+          <button class="slider__control slider-hero__controle" data-slide="next">
+            <span class="sr-only">Go Right</span>
+          </button>
+    
+          <ol class="slider__indicators">
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="0"></li>
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="1"></li>
+            <li class="slider__indicator slider-hero__indicator" data-slide-to="2"></li>
+          </ol>
+        </div>
+      </section>
+      <!--Activities-->
+      <section class="activities">
+        <div class="activities__text-container">
+          <h2 class="activities__title">Чем мы занимаемся?</h2>
+          <div class="activities__pharagraph-container">
+            <p class="activities__pharagraph">Мы&nbsp;помогаем некоммерческим организациям становиться лучше, привлекать профессионалов и&nbsp;достигать своей цели&nbsp;&mdash; <span class="activities__pharagraph-bold">помощь людям.</span></p>
+            <p class="activities__pharagraph">Через свои ключевые программы &laquo;Друзья&raquo; привлекают лучшие бизнес-практики в&nbsp;работу благотворительных организаций и&nbsp;создают площадки для фандрайзинга и&nbsp;успешного сотрудничества с&nbsp;бизнесом и&nbsp;государством.</p>
+          </div>
+        </div>
+        <div class="activities__items">
+          <div class="activities__item activities__item_volunteers">
+            <img src="./images/activities-lamp.svg" alt="Лампочка." class="activities__image activities__image_volunteers">
+            <p class="activities__pharagraph-items">Находим интеллектуальных волонтеров</p>
+          </div>
+          <div class="activities__item activities__item_philanthropy">
+            <img src="./images/activities-book.svg" alt="Книга." class="activities__image activities__image_philanthropy">
+            <p class="activities__pharagraph-items">Обучаем филантропии</p>
+          </div>
+          <div class="activities__item activities__item_help">
+            <img src="./images/activities-arrow.svg" alt="Стрелка." class="activities__image activities__image_help">
+            <p class="activities__pharagraph-items">Помогаем развиваться некоммерческим организациям</p>
+          </div>
+          <div class="activities__item activities__item_business">
+            <img src="./images/activities-case.svg" alt="Чемодан." class="activities__image activities__image_business">
+            <p class="activities__pharagraph-items">Помогаем бизнесу становиться социально ответственным</p>
+          </div>
+          <div class="activities__background-item activities__background-item_big-block"></div>
+          <div class="activities__background-item activities__background-item_gray-one"></div>
+          <div class="activities__background-item activities__background-item_gray-two"></div>
+          <div class="activities__background-item activities__background-item_gray-three"></div>
+          <div class="activities__background-item activities__background-item_pink-one"></div>
+          <div class="activities__background-item activities__background-item_pink-two"></div>
+          <div class="activities__background-item activities__background-item_mint-one"></div>
+          <div class="activities__background-item activities__background-item_mint-two"></div>
+          <div class="activities__background-item activities__background-item_mint-three"></div>
+          <div class="activities__background-item activities__background-item_mint-four"></div>
+          <div class="activities__background-item activities__background-item_blue"></div>
+          <div class="activities__background-item activities__background-item_orange"></div>
+        </div>
+      </section>
+      <!--Statistics-->
+      <section class="statistics content__statistics">
+        <ul class="statistics__list">
+          <li class="statistics__item">
+            <p class="statistics__count">2 500</p>
+            <p class="statistics__text">НКО <span class="statistics__text statistics__text_type_bold">стали</span>
+              участниками
+              наших программ</p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__count">150</p>
+            <p class="statistics__text"><span class="statistics__text statistics__text_type_bold">Профессионалов</span>
+              благотворительности получили дипломы</p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__count">4 000</p>
+            <p class="statistics__text">Волонтеров <span class="statistics__text statistics__text_type_bold">были
+                привлечены</span> через нас для помощи различным НКО</p>
+          </li>
+          <li class="statistics__item">
+            <p class="statistics__count">250</p>
+            <p class="statistics__text">Экспертов <span
+                class="statistics__text statistics__text_type_bold">преподают</span> в наших программах</p>
+          </li>
+        </ul>
+      </section>
+      <!--Values-->
+      <section class="values content__values">
+        <h2 class="values__title">Наши ценности</h2>
+        <ul class="values__list">
+          <li class="values__value-item">
+            <img src="./images/values/student.svg" alt="Студент" class="values__image">
+            <p class="values__text">Высокий профессионализм сотрудников</p>
+          </li>
+          <li class="values__value-item">
+            <img src="./images/values/finanse.svg" alt="Финансы" class="values__image">
+            <p class="values__text">Финансовая устойчивость</p>
+          </li>
+          <li class="values__value-item">
+            <img src="./images/values/systems-approach.svg" alt="Пазл" class="values__image">
+            <p class="values__text">Системный подход к решению социальной проблемы</p>
+          </li>
+          <li class="values__value-item">
+            <img src="./images/values/effective.svg" alt="Рука с цветком" class="values__image">
+            <p class="values__text">Измеримый эффект</p>
+          </li>
+          <li class="values__value-item">
+            <img src="./images/values/unity.svg" alt="Рукопожатие" class="values__image">
+            <p class="values__text">Объединение и партнерство</p>
+          </li>
+          <li class="values__value-item">
+            <img src="./images/values/friendship.svg" alt="Воздушный шарик" class="values__image">
+            <p class="values__text">Дружба и юмор</p>
+          </li>
+        </ul>
+      </section>
       <section class="useful">
         <h1 class="useful__title">Полезно</h1>
         <div class="useful__grid-box">
@@ -43,6 +189,7 @@
           </div>
         </div>
       </section>
+
       <section class="blog" data-slider>
         <h1 class="blog__title">Блог</h1>
         <div class="blog__container">
@@ -101,8 +248,49 @@
         </ol>
         <button class="blog__button">Перейти в блог</button>
       </section>
+
+      <section class="payments payments_type_mini">
+      <h3 class="payments__title">Поддержите «друзей»<br> или станьте<br><span class="payments__cursive"> нашим партнером</span></h3>
+      <form class="payments__form form">
+          <h3 class="form__heading">Поддержать Друзей:</h3>
+          <fieldset class="form__container form__container_type_payment ">
+            <label class="form__label form__label_type_payment" for="onesPayment">
+              <input class="form__item form__item_el_radio" type="radio" id="onesPayment" name="payment"  value="ones">
+              <span class="form__pseudo-item form__pseudo-item_type_payment">РАЗОВОЕ</span>
+            </label>
+            <label class="form__label form__label_type_payment" for="monthsPayment">
+              <input class="form__item form__item_el_radio" type="radio" id="monthsPayment" name="payment" value="months" checked>
+              <span class="form__pseudo-item form__pseudo-item_type_payment">ЕЖЕМЕСЯЧНОЕ</span>
+            </label>
+          </fieldset>
+          <fieldset class="form__container form__container_type_value_payment ">
+            <label class="form__label form__label_type_value-payment" for="value5000">
+              <input class="form__item form__item_el_radio" type="radio" id="value5000" name="sum" value="5000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">5000</span>
+            </label>
+            <label class="form__label form__label_type_value-payment" for="value10000">
+              <input class="form__item form__item_el_radio" type="radio" id="value10000" name="sum" value="10000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">10000</span>
+            </label>
+            <label class="form__label form__label_type_value-payment" for="value50000">
+              <input class="form__item form__item_el_radio" type="radio" id="value50000" name="sum" value="50000">
+              <span class="form__pseudo-item form__pseudo-item_type_value-payment">50000</span>
+            </label>
+          </fieldset>
+          <fieldset class="form__container">
+            <label  class="form__label form_label_type_icon-rub">
+              <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Другая сумма">
+            </label>
+          </fieldset>
+          <fieldset class="form__container">
+              <button type="submit" class="form__button form__button_color_green">Поддержать фонд</button>
+          </fieldset>
+      </form>      
+    </section>
     </main>
   </div>
   <script src="./scripts/script.js"></script>
+  <script src="./vendor/slider.js"></script>
 </body>
+
 </html>
