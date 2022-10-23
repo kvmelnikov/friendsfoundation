@@ -7,7 +7,6 @@
     margin: 96px auto 56px;
     text-align: center;
 }
-
 @media screen and (max-width: 500px){
     .useful__title{
     font-size: 32px;
