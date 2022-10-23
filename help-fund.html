@@ -2,14 +2,191 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./pages/help-fund.css">
-    <title>Добро</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./pages/help-fund.css">
+	<title>Добро</title>
 </head>
 
 <body class="body">
+	<div class="page">
+		<header class="header">
+			<button class="header__burger" aria-label="Открыть меню">
+				<span></span>
+			</button>
+			<div class="header__logo">
+				<a href="./index.html" class="header__logo-link">
+			  	<img src="./images/header-logo.svg" alt="Логотип." class="header__logo-image">
+			  	<div class="header__text-container">
+						<p class="header__logo-foundation">Фонд</p>
+						<p class="header__logo-friends">Друзья</p>
+			  	</div>
+				</a>
+			</div>
+			<nav class="menu header__menu">
+			  <ul class="menu__list">
+				<button type="button" name="close" class="menu__button-close"><span class="menu__sr-only">Mobile menu</span></button>
+				<ul class="menu__body-main">
+				  <li class="menu__item menu__item-hover">
+					<a href="#" class="menu__link menu__link-dropdown">Фонд</a>
+					<ul class="menu__sub-list menu__list-about dropdown-list">
+					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+					  <ul class="dropdown-list__item-container">
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">О фонде «Друзья»</h2>
+							<p class="dropdown-list__subtitle">История фонда, миссия</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Структура фонда</h2>
+							<p class="dropdown-list__subtitle">Экспертный совет, Попечительский совет, Правление, Команда</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						   <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Документы</h2>
+							<p class="dropdown-list__subtitle">Оферта, Реквизиты, Устав, Договор пожертвования</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Отчёты</h2>
+							<p class="dropdown-list__subtitle">Айдит, Годовой отчёт</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">FAQ</h2>
+							<p class="dropdown-list__subtitle">Ответы на часто задаваемые вопросы</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">СМИ о нас</h2>
+							<p class="dropdown-list__subtitle">Что пишут о нас в сети интернета</p>
+						  </a>
+						</li>
+					  </ul>
+					</ul>
+				  </li>
+				  <li class="menu__item menu__item-hover">
+					<a href="#" class="menu__link menu__link-dropdown">Программы</a>
+					<ul class="menu__sub-list menu__list-programs dropdown-list">
+					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+					  <ul class="dropdown-list__programs-container">
+						<li class="dropdown-list__program dropdown-list__program_procharity">
+						  <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+							  <p class="dropdown-list__logo-text">ProCharity</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">ProCharity</p>
+							<p class="dropdown-list__program-pharagraph">Скорая интеллектуальная помощь для благотворительных фондов</p>
+							<button class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+						<li class="dropdown-list__program dropdown-list__program_school">
+						  <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+							  <p class="dropdown-list__logo-text">Московская школа профессиональной филантропии</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Московская школа профессиональной филантропии</p>
+							<p class="dropdown-list__program-pharagraph">Повышение квалификации и профессионализма сотрудников НКО</p>
+							<button class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+						<li class="dropdown-list__program dropdown-list__program_team-professionals">
+						   <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+							  <p class="dropdown-list__logo-text">Команда профессионалов</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Команда профессионалов</p>
+							<p class="dropdown-list__program-pharagraph">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
+							<button class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+					  </ul>
+					</ul>
+				  </li>
+				  <li class="menu__item"><a href="#" class="menu__link">Для НКО</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Для бизнеса</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Партнёры</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+				</ul>
+				<ul class="language menu__list-language">
+				  <li class="menu__language"><a href="#" class="language__russian">Ру</a></li>
+				  <li class="menu__language"><a href="#" class="language__english">En</a></li>
+				</ul>
+				<ul class="social menu__list-social">
+				  <li class="social__link-vk social__link-vk_dark"><a href="#" class="menu__social-item"></a></li>
+				  <li class="social__link-tg social__link-tg_dark"><a href="#" class="menu__social-item"></a></li>
+				</ul>
+			  </ul>
+			</nav>
+			<div class="social header__social">
+			  <a href="#" class="header__social-link social__link-vk social__link-vk_white"></a>
+			  <a href="#" class="header__social-link social__link-tg social__link-tg_white"></a>
+			</div>
+			<div class="language header__language">
+			  <a href="#" class="language__russian">Ру</a>
+			  <a href="#" class="language__english">En</a>
+			</div>
+			<div class="header__donations">
+			  <button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
+			</div>
+		  </header>
+		<main class="content">
+			<!--Statistics-->
+			<section class="statistics content__statistics">
+				<ul class="statistics__list">
+					<li class="statistics__item">
+						<p class="statistics__count">2 500</p>
+						<p class="statistics__text">НКО <span
+								class="statistics__text statistics__text_type_bold">стали</span>
+							участниками
+							наших программ</p>
+					</li>
+					<li class="statistics__item">
+						<p class="statistics__count">150</p>
+						<p class="statistics__text"><span
+								class="statistics__text statistics__text_type_bold">Профессионалов</span>
+							благотворительности получили дипломы</p>
+					</li>
+					<li class="statistics__item">
+						<p class="statistics__count">4 000</p>
+						<p class="statistics__text">Волонтеров <span
+								class="statistics__text statistics__text_type_bold">были
+								привлечены</span> через нас для помощи различным НКО</p>
+					</li>
+					<li class="statistics__item">
+						<p class="statistics__count">250</p>
+						<p class="statistics__text">Экспертов <span
+								class="statistics__text statistics__text_type_bold">преподают</span> в наших программах
+						</p>
+					</li>
+				</ul>
+			</section>
+		</main>
+	</div>
+	<script src="./scripts/script.js"></script>
     <div class="page">
         <main class="content">
           <section class="payments payments_type_card">

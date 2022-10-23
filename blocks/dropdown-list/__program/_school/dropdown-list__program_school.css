@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .dropdown-list__program_school {
+    background: #528CBE;
+    padding-top: 32px;
+  }
+}
+
+.dropdown-list__program_school:hover {
+  background: #528CBE;
+}
