@@ -186,6 +186,15 @@
 @import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
 @import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
 
+
+/* partners */
+@import url(../blocks/partners/partners.css);
+@import url(../blocks/partners/__title/partners__title.css);
+@import url(../blocks/partners/__slider/partners__slider.css);
+@import url(../blocks/partners/__slider-item/partners__slider-item.css);
+@import url(../blocks/partners/__image/partners__image.css);
+@import url(../blocks/partners/__btn/partners__btn.css);
+
 /* form */
 
 @import url(../blocks/form/form.css);
