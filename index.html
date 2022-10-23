@@ -11,6 +11,146 @@
 
 <body class="body">
   <div class="page">
+    <header class="header">
+      <button class="header__burger" aria-label="Открыть меню">
+				<span></span>
+			</button>
+      <div class="header__logo">
+        <img src="./images/header-logo.svg" alt="Логотип." class="header__logo-image">
+        <div class="header__text-container">
+          <p class="header__logo-foundation">Фонд</p>
+          <p class="header__logo-friends">Друзья</p>
+        </div>
+      </div>
+      <nav class="menu header__menu">
+        <ul class="menu__list">
+          <button type="button" name="close" class="menu__button-close"><span class="menu__sr-only">Mobile menu</span></button>
+          <ul class="menu__body-main">
+            <li class="menu__item menu__item-hover">
+              <a href="#" class="menu__link menu__link-dropdown">Фонд</a>
+              <ul class="menu__sub-list menu__list-about dropdown-list">
+                <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+                <ul class="dropdown-list__item-container">
+                  <li class="dropdown-list__item">
+                    <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">О фонде «Друзья»</h2>
+                      <p class="dropdown-list__subtitle">История фонда, миссия</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__item">
+                    <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">Структура фонда</h2>
+                      <p class="dropdown-list__subtitle">Экспертный совет, Попечительский совет, Правление, Команда</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__item">
+                     <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">Документы</h2>
+                      <p class="dropdown-list__subtitle">Оферта, Реквизиты, Устав, Договор пожертвования</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__item">
+                    <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">Отчёты</h2>
+                      <p class="dropdown-list__subtitle">Айдит, Годовой отчёт</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__item">
+                    <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">FAQ</h2>
+                      <p class="dropdown-list__subtitle">Ответы на часто задаваемые вопросы</p>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__item">
+                    <a href="#" class="dropdown-list__link">
+                      <h2 class="dropdown-list__title">СМИ о нас</h2>
+                      <p class="dropdown-list__subtitle">Что пишут о нас в сети интернета</p>
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li class="menu__item menu__item-hover">
+              <a href="#" class="menu__link menu__link-dropdown">Программы</a>
+              <ul class="menu__sub-list menu__list-programs dropdown-list">
+                <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+                <ul class="dropdown-list__programs-container">
+                  <li class="dropdown-list__program dropdown-list__program_procharity">
+                    <a href="#" class="dropdown-list__program-link">
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+                        <p class="dropdown-list__logo-text">ProCharity</p>
+                      </div>
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+                        <p class="dropdown-list__program-text">программа</p>
+                      </div>
+                      <p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">ProCharity</p>
+                      <p class="dropdown-list__program-pharagraph">Скорая интеллектуальная помощь для благотворительных фондов</p>
+                      <button class="dropdown-list__program-button">О программе</button>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__program dropdown-list__program_school">
+                    <a href="#" class="dropdown-list__program-link">
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+                        <p class="dropdown-list__logo-text">Московская школа профессиональной филантропии</p>
+                      </div>
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+                        <p class="dropdown-list__program-text">программа</p>
+                      </div>
+                      <p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Московская школа профессиональной филантропии</p>
+                      <p class="dropdown-list__program-pharagraph">Повышение квалификации и профессионализма сотрудников НКО</p>
+                      <button class="dropdown-list__program-button">О программе</button>
+                    </a>
+                  </li>
+                  <li class="dropdown-list__program dropdown-list__program_team-professionals">
+                     <a href="#" class="dropdown-list__program-link">
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+                        <p class="dropdown-list__logo-text">Команда профессионалов</p>
+                      </div>
+                      <div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+                        <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+                        <p class="dropdown-list__program-text">программа</p>
+                      </div>
+                      <p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Команда профессионалов</p>
+                      <p class="dropdown-list__program-pharagraph">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
+                      <button class="dropdown-list__program-button">О программе</button>
+                    </a>
+                  </li>
+                </ul>
+              </ul>
+            </li>
+            <li class="menu__item"><a href="#" class="menu__link">Для НКО</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Для бизнеса</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Партнёры</a></li>
+            <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+          </ul>
+          <ul class="language menu__list-language">
+            <li class="menu__language"><a href="#" class="language__russian">Ру</a></li>
+            <li class="menu__language"><a href="#" class="language__english">En</a></li>
+          </ul>
+          <ul class="social menu__list-social">
+            <li class="social__link-vk social__link-vk_dark"><a href="#" class="menu__social-item"></a></li>
+            <li class="social__link-tg social__link-tg_dark"><a href="#" class="menu__social-item"></a></li>
+          </ul>
+        </ul>
+      </nav>
+      <div class="social header__social">
+        <a href="#" class="header__social-link social__link-vk social__link-vk_white"></a>
+        <a href="#" class="header__social-link social__link-tg social__link-tg_white"></a>
+      </div>
+      <div class="language header__language">
+        <a href="#" class="language__russian">Ру</a>
+        <a href="#" class="language__english">En</a>
+      </div>
+      <div class="header__donations">
+        <button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
+      </div>
+    </header>
     <main class="content">
       <!--Hero-->
       <!-- <section class="slider-hero">
@@ -23,7 +163,7 @@
                   <div class="slider-hero__container">
                     <h1 class="slider-hero__title slider-hero__title_foundation">Мы <span class="slider-hero__title-italic">помогаем</span> фондам, чтобы они <span class="slider-hero__title-italic">помогали</span> другим</h1>
                     <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Фонд &laquo;Друзья&raquo;&nbsp;&mdash;</span> это фонд для тех, кто хочет приносить пользу другим людям ничего за&nbsp;это не&nbsp;беря.</p>
-                    <button type="button" name="button" class="slider-hero__button">Наши программы</button>
+                    <button onclick="document.location='#our-programs'" type="button" name="button" class="slider-hero__button">Наши программы</button>
                   </div>
                 </div>
               </div>
@@ -60,8 +200,8 @@
           </ol>
         </div>
       </section> -->
-      <!--Activities-->
-      <!-- <section class="activities">
+      <!--Activities-->      
+      <section class="activities">
         <div class="activities__text-container">
           <h2 class="activities__title">Чем мы занимаемся?</h2>
           <div class="activities__pharagraph-container">
@@ -99,7 +239,60 @@
           <div class="activities__background-item activities__background-item_blue"></div>
           <div class="activities__background-item activities__background-item_orange"></div>
         </div>
-      </section> -->
+      </section>
+
+      </section>
+           <!--Programs section-->
+      <section id="our-programs" class="programs">
+        <h2 class="programs__title">Наши программы</h2>
+        <div class="program program_color_sky-blue">
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-procharity.svg" alt="Лого Procharity" class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">ProCharity</h3>
+            <p class="program__text">Скорая интеллектуальная помощь для&nbsp;благотворительных фондов</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+          <div class="program__image-wrapper">
+            <img class="program__image program__image_type_procharity-notebook" src="./images/programs/procharity-notebook.png" alt="Ноутбук">
+          </div>
+        </div>
+
+        <div class="program program_color_blue">
+          <div class="program__image-wrapper">
+            <img class="program__image program__image_type_students" src="./images/programs/students.png" alt="Студенты">
+          </div>
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-school.svg" alt="Лого Московской школы" class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">Московская школа профессиональной филантропии</h3>
+            <p class="program__text">Повышение квалификации и профессионализма сотрудников НКО</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+
+        </div>
+
+        <div class="program program_color_pink">
+          <div class="program__info">
+            <div class="program__logo-wrapper">
+              <img src="./images/programs/logo-proffesionals.svg" alt="Лого команды профессионалов"
+                class="program__logo">
+              <p class="program__logo-text">программа</p>
+            </div>
+            <h3 class="program__title">Команда профессионалов</h3>
+            <p class="program__text">Стратегическое развитие и менторская поддержка
+              социальных проектов и НКО</p>
+            <button type="button" class="program__button">О программе</button>
+          </div>
+          <div class="program__image-wrapper">
+            <img class="program__image program__image_type_professionals" src="./images/programs/professionals.png" alt="Профессионалы">
+          </div>
+        </div>
+      </section>
       <!--Statistics-->
       <!-- <section class="statistics content__statistics">
         <ul class="statistics__list">
@@ -165,7 +358,7 @@
               <p class="useful__paragraph">Как научиться быть настоящим филантропом?</p>
             <a href="" class="useful__link">Читать</a>
             </div>
-            <img src="./images/hends-logo.svg" alt="" class="useful__logo">
+            <img src="./images/hends-logo.svg" alt="" class="useful__logo useful__img-increase">
           </div>
           <div class="useful__card">
             <div class="useful__text">
@@ -190,65 +383,64 @@
           </div>
         </div>
       </section>
-
-      <section class="blog" data-slider>
+      <!--blog-->
+      <section class="blog">
         <h1 class="blog__title">Блог</h1>
-        <div class="blog__container">
-          <div class="blog__cards">
-          <div class="blog__main-card">
-            <p class="blog__main-card-date">7 Июля 2021</p>
-            <h2 class="blog__main-card-title">Россияне 
-              и благотворительность</h2>
-            <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
-          </div>
-          <div class="blog__card blog__main-card_visible">
-            <img src="./images/main-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Россияне 
-              и благотворительность</h2>
-            <p class="blog__card-text">Что статистика знает о добрых делах</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/university-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
-            <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/for-the-poor-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Благотворительность в России</h2>
-            <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/box-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Кому жертвуют в России?</h2>
-            <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/people-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
-            <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
-          </div>
-          </div>
-        </div>
-        <button class="blog__slider-control" data-slide="prev">
-          <span class="blog__sr-only">Go Left</span>
-        </button>
-        <button class="blog__slider-control" data-slide="next">
-          <span class="blog__sr-only">Go Right</span>
-        </button>
-        <ol class="blog__slider-indicators">
-          <li class="blog__slider-indicator" data-slide-to="0"></li>
-          <li class="blog__slider-indicator" data-slide-to="1"></li>
-          <li class="blog__slider-indicator" data-slide-to="2"></li>
-          <li class="blog__slider-indicator" data-slide-to="3"></li>
-          <li class="blog__slider-indicator" data-slide-to="4"></li>
+        <div class="slider" data-slider  data-autoplay="true" data-interval="10000">
+          <div class="slider__container blog__container">
+            <div class="blog__cards slider__items">
+              <div class="blog__main-card">
+                <a href="" class="blog__link">Статистика</a>
+                <p class="blog__main-card-date">7 Июля 2021</p>
+                <h2 class="blog__main-card-title">Россияне 
+                  и благотворительность</h2>
+                <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
+              </div>
+                <div class="slider__item blog__card blog__main-card_visible">
+                  <img src="./images/main-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Россияне 
+                    и благотворительность</h2>
+                  <p class="blog__card-text">Что статистика знает о добрых делах</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/university-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
+                  <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/for-the-poor-card.svg" alt="" class="blog__card-img">
+                  <a href="" class="blog__link blog__link_color">Разбор</a>
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Благотворительность в России</h2>
+                  <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/box-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Кому жертвуют в России?</h2>
+                  <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/people-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
+                  <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
+                </div>
+              </div>
+            </div>
+        <ol class="blog__slider-indicators slider__indicators">
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="0"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="1"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="2"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="3"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="4"></li>
         </ol>
         <button class="blog__button">Перейти в блог</button>
-      </section> -->
+      </section>
+      </div>
+      </section>
       <!--friends-->
       <!-- <section class="friends">
         <h1 class="friends__title">Наши друзья</h1>
@@ -358,6 +550,38 @@
         <h2 class="contacts__title">Остались вопросы? Пишите и звоните нам</h2>
         <a href="#" class="contacts__email">friends@friends-foundation.com</a>
         <a href="#" class="contacts__phone">+7 977 277-07-17</a>
+      </section>
+      <section class="subscribe">
+        <div class="subscribe__description">
+          <h3 class="subscribe__title">Подпишитесь на новостную рассылку/вебинары</h3>
+          <p class="subscribe__subtitle">и получайте первыми наши новости и приглашения на семинары/вебинары</p>
+        </div>
+        <form action="" class="subscribe__form" name="subscribe-form">
+          <input type="email" class="subscribe__input" name="subscribe-input-email">
+          <button class="subscribe__btn-submit">Подписаться</button>
+        </form>
+      </section>
+      <!-- partners -->
+      <section class="partners">
+        <h2 class="partners__title">Нам доверяют</h2>
+        <ul class="partners__slider">
+          <li class="partners__slider-item">
+            <a href="#" class="partners__link"><img src="./images/partners/ey.svg" alt="ey" class="partners__image"></a>
+          </li>
+          <li class="partners__slider-item">
+            <a href="#" class="partners__link"><img src="./images/partners/roscongress.svg" alt="roscongress" class="partners__image"></a>
+          </li>
+          <li class="partners__slider-item">
+            <a href="#" class="partners__link"><img src="./images/partners/mastercard.svg" alt="mastercard" class="partners__image"></a>
+          </li>
+          <li class="partners__slider-item">
+            <a href="#" class="partners__link"><img src="./images/partners/hotel_indigo.svg" alt="hotel_indigo" class="partners__image"></a>
+          </li>
+          <li class="partners__slider-item">
+            <a href="#" class="partners__link"><img src="./images/partners/hse.svg" alt="hse" class="partners__image"></a>
+          </li>
+        </ul>
+        <button class="partners__btn"></button>
       </section>
       <section class="payments payments_type_mini">
       <h3 class="payments__title">Поддержите «друзей»<br> или станьте<br><span class="payments__cursive"> нашим партнером</span></h3>

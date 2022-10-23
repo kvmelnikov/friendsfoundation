@@ -1,0 +1,10 @@
+@media screen and (max-width: 767px) {
+  .dropdown-list__program_team-professionals {
+    background: #DE6F7E;
+    padding-top: 32px;
+  }
+}
+
+.dropdown-list__program_team-professionals:hover {
+  background: #DE6F7E;
+}

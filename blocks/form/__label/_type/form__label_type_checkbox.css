@@ -1,0 +1,7 @@
+.form__label_type_checkbox {
+
+}
+
+.form__label_type_checkbox:nth-child(2) {
+  margin-top: 14px;
+}

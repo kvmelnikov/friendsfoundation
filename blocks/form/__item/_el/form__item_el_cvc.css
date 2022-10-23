@@ -1,0 +1,7 @@
+.form__item_el_cvc {
+  width: 80%;
+  max-width: 64px;
+  height: 48px;
+  grid-column: 2;
+  grid-row: 3/4;
+}
