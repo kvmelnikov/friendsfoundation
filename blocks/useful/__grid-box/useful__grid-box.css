@@ -3,6 +3,7 @@
     grid-template-columns: repeat(auto-fit, minmax(504px, 1fr));
     gap: 24px;
 }
+
 @media screen and (max-width: 500px){
     .useful__grid-box{
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
