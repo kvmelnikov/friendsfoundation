@@ -1,0 +1,8 @@
+.form__item_el_text-card {
+  background-color: #fff;
+  max-width: 308px;
+}
+
+.form__item_el_text-card:nth-child(1) {
+  margin-bottom: 8px;
+}

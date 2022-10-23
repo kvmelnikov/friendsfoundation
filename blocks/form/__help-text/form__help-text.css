@@ -1,0 +1,8 @@
+.form__help-text {
+  font-size: 12px;
+  line-height: 17px;
+  width: 80%;
+  max-width: 126px;
+  grid-column: 2;
+  grid-row: 5;
+}

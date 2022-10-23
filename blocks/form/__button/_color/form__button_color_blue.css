@@ -1,0 +1,9 @@
+.form__button_color_blue {
+  background: rgba(82, 140, 190, 1);
+  margin-top: 51px;
+}
+
+
+.form__button_color_blue:hover {
+  background: rgba(82, 140, 190, .8);
+}
