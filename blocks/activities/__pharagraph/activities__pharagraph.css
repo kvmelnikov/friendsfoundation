@@ -1,0 +1,35 @@
+.activities__pharagraph {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  max-width: 504px;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__pharagraph {
+    font-size: 12px;
+    line-height: 22px;
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__pharagraph {
+    font-size: 10px;
+    line-height: 20px;
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__pharagraph {
+    font-size: 16px;
+    line-height: 23px;
+    max-width: 327px;
+  }
+}

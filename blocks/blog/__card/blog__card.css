@@ -1,0 +1,13 @@
+.blog__card{
+    max-width: 328px;
+    background: #F8F8F8;
+}
+@media screen and (max-width:680px){
+    .blog__card{
+        flex: 0 0 100%;
+       /*  max-width: 100%; */
+        user-select: none;
+        will-change: transform;
+        background: white;
+    }
+}

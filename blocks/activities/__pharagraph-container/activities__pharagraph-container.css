@@ -1,0 +1,23 @@
+.activities__pharagraph-container {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__pharagraph-container {
+    gap: 18px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__pharagraph-container {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__pharagraph-container {
+    gap: 21px;
+  }
+}
