@@ -185,6 +185,8 @@
 @import url(../blocks/blog/__slider_disable-transition/blog__slider_disable-transition.css);
 @import url(../blocks/blog/__slider-control/_hidden/blog__slider-control_hidden.css);
 @import url(../blocks/blog/__slider-indicator/_active/blog__slider-indicator_active.css);
+@import url(../blocks/blog/__link/blog__link.css);
+@import url(../blocks/blog/__link/_color/blog__link_color.css);
 
 /* form */
 

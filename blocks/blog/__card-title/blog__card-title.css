@@ -6,4 +6,5 @@
     line-height: 26px;
     margin: 0;
     padding: 0 0 16px 24px;
+    transition: .3s;
 }
