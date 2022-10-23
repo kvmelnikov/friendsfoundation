@@ -1,0 +1,33 @@
+.friends__title{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 50px;
+    margin: 96px auto 56px;
+    text-align: center;
+}
+
+@media screen and (max-width: 890px){
+    .friends__title{
+     margin-bottom: -98px;
+     z-index: 100;
+    }
+  }
+  @media screen and (max-width: 890px){
+    .friends__title{
+        margin-bottom: -120px;
+        z-index: 100;
+       }
+}
+  @media screen and (max-width: 612px){
+    .friends__title{
+        margin-bottom: -160px;
+       }
+}
+@media screen and (max-width: 455px){
+    .friends__title{
+        font-size: 30px;
+        line-height: 42px;
+       }
+}

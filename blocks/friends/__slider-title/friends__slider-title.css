@@ -1,0 +1,32 @@
+.friends__slider-title{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    margin: 0;
+}
+@media screen and (max-width: 1180px){
+    .friends__slider-title{
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+@media screen and (max-width: 1007px){
+    .friends__slider-title{
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+@media screen and (max-width:890px){
+    .friends__slider-title{
+        font-size: 18px;
+        line-height: 25px;
+    }
+} 
+@media screen and (max-width:612px){
+    .friends__slider-title{
+        font-size: 22px;
+        line-height: 32px;
+    }
+} 

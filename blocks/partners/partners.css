@@ -1,0 +1,16 @@
+.partners {
+    display: flex;
+    flex-direction: column;
+    max-width: 1031px;
+    height: 196px;
+    margin: 0 auto;
+    gap: 23px;
+    position: relative;
+}
+
+@media screen  and (max-width: 767px){
+    .partners{
+        max-width: 375px;
+        max-height: 145px;
+    }
+}

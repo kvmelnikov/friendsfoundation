@@ -2,12 +2,11 @@
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 44px;
+    font-size: 41px;
     line-height: 50px;
     margin: 96px auto 56px;
     text-align: center;
 }
-
 @media screen and (max-width: 500px){
     .useful__title{
     font-size: 32px;

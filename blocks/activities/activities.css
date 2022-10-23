@@ -1,0 +1,32 @@
+.activities {
+  max-width: 1032px;
+  display: flex;
+  flex-direction: column;
+  margin: 96px auto 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities {
+      max-width: 832px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities {
+      max-width: 670px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities {
+      max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities {
+      max-width: 375px;
+  }
+}
