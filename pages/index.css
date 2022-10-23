@@ -79,6 +79,42 @@
 @import url('../blocks/statistics/__text/statistics__text.css');
 @import url('../blocks/statistics/__text/_type/statistics__text_type_bold.css');
 
+@import url('../blocks/programs/programs.css');
+@import url('../blocks/programs/__title/programs__title.css');
+@import url('../blocks/program/program.css');
+@import url('../blocks/program/_color/program_color_sky-blue.css');
+@import url('../blocks/program/_color/program_color_blue.css');
+@import url('../blocks/program/_color/program_color_pink.css');
+@import url('../blocks/program/__info/program__info.css');
+@import url('../blocks/program/__logo-wrapper/program__logo-wrapper.css');
+@import url('../blocks/program/__logo/program__logo.css');
+@import url('../blocks/program/__logo-text/program__logo-text.css');
+@import url('../blocks/program/__title/program__title.css');
+@import url('../blocks/program/__text/program__text.css');
+@import url('../blocks/program/__button/program__button.css');
+@import url('../blocks/program/__image-wrapper/program__image-wrapper.css');
+@import url('../blocks/program/__image/program__image.css');
+@import url('../blocks/program/__image/_type/program__image_type_procharity-notebook.css');
+@import url('../blocks/program/__image/_type/program__image_type_students.css');
+@import url('../blocks/program/__image/_type/program__image_type_professionals.css');
+
+@import url('../blocks/values/values.css');
+@import url('../blocks/values/__title/values__title.css');
+@import url('../blocks/values/__list/values__list.css');
+@import url('../blocks/values/__value-item/values__value-item.css');
+@import url('../blocks/values/__image/values__image.css');
+@import url('../blocks/values/__text/values__text.css');
+
+@import url('../blocks/statistics/statistics.css');
+@import url('../blocks/statistics/__list/statistics__list.css');
+@import url('../blocks/statistics/__item/statistics__item.css');
+@import url('../blocks/statistics/__count/statistics__count.css');
+@import url('../blocks/statistics/__text/statistics__text.css');
+@import url('../blocks/statistics/__text/_type/statistics__text_type_bold.css');
+
+
+
+
 
 
 
