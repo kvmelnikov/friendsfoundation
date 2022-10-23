@@ -77,3 +77,66 @@
 @import url('../blocks/statistics/__count/statistics__count.css');
 @import url('../blocks/statistics/__text/statistics__text.css');
 @import url('../blocks/statistics/__text/_type/statistics__text_type_bold.css');
+
+
+/* payments */
+
+@import url(../blocks/payments/payments.css);
+@import url(../blocks/payments/_type/payments_type_card.css);
+@import url(../blocks/payments/__title/payments__title.css);
+@import url(../blocks/payments/__title/_type/payments__title_type_card.css);
+@import url(../blocks/payments/__cursive/payments__cursive.css);
+
+
+/* form */
+
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/_type/form_type_card.css);
+@import url(../blocks/form/__container/form__container.css);
+@import url(../blocks/form/__container/_type/form__container_type_payment.css);
+@import url(../blocks/form/__container/_type/form__container_type_value_payment.css);
+@import url(../blocks/form/__handlers/form__handlers.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__item/form__item.css);
+@import url(../blocks/form/__item/_el/form__item_el_radio.css);
+@import url(../blocks/form/__pseudo-item/form__pseudo-item.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_payment.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_apple-pay.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_g-pay.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_visa-mir.css);
+@import url(../blocks/form/__label/_type/form__label_type_payment.css);
+@import url(../blocks/form/__label/_type/form__label_type_value-payment.css);
+@import url(../blocks/form/__label/_type/form_label_type_icon-rub.css);
+@import url(../blocks/form/__item/_el/form__item_el_text.css);
+@import url(../blocks/form/__item/_type/form__item_type_apple-pay.css);
+@import url(../blocks/form/__item/_type/form__item_type_g-pay.css);
+@import url(../blocks/form/__item/_type/form__item_type_visa-mir.css);
+@import url(../blocks/form/__button/form__button.css);
+@import url(../blocks/form/__button/_color/form__button_color_green.css);
+@import url(../blocks/form/__fieldset-heading/form__fieldset-heading.css);
+@import url(../blocks/form/__fieldset-heading/_type/form__fieldset-heading_type_card.css);
+@import url(../blocks/form/__fieldset-heading/_type/form__fieldset-heading_type_payment.css);
+@import url(../blocks/form/__fieldset-heading/_type/form__fieldset-heading_type_donation.css);
+@import url(../blocks/form/__fieldset-heading/_type/form__fieldset-heading_type_method.css);
+@import url(../blocks/form/__container/_type/form__container_type_card.css);
+@import url(../blocks/form/__item/_el/form__item_el_text-card.css);
+@import url(../blocks/form/__front-side-card/form__front-side-card.css);
+@import url(../blocks/form/__back-side-card/form__back-side-card.css);
+@import url(../blocks/form/__label/_type/form__label_type_cvc.css);
+@import url(../blocks/form/__item/_el/form__item_el_cvc.css);
+@import url(../blocks/form/__help-text/form__help-text.css);
+@import url(../blocks/form/__line-card/form__line-card.css);
+@import url(../blocks/form/__card-holders/form__card-holders.css);
+@import url(../blocks/form/__to-be-paid/form__to-be-paid.css);
+@import url(../blocks/form/__to-be-paid/_el/form__to-be-paid_el_number.css);
+@import url(../blocks/form/__to-be-paid/_el/form__to-be-paid_el_text.css);
+@import url(../blocks/form/__validity-period/form__validity-period.css);
+@import url(../blocks/form/__validity-period/_el/form__validity-period_el_label.css);
+@import url(../blocks/form/__container/_type/form__container_type_holders.css);
+@import url(../blocks/form/__item/_el/form__item_el_checkbox.css);
+@import url(../blocks/form/__pseudo-item/_type/form__pseudo-item_type_checkbox.css);
+@import url(../blocks/form/__container/_type/form__container_type_confirmation.css);
+@import url(../blocks/form/__label-text/form__label-text.css);
+@import url(../blocks/form/__label-text/_type/form__label-text_type_touluse.css);
+@import url(../blocks/form/__label/_type/form__label_type_checkbox.css);
+@import url(../blocks/form/__button/_color/form__button_color_blue.css);

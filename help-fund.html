@@ -187,6 +187,137 @@
 		</main>
 	</div>
 	<script src="./scripts/script.js"></script>
+    <div class="page">
+        <main class="content">
+          <section class="payments payments_type_card">
+              <h3 class="payments__title payments__title_type_card">
+                  Поддерживая «Друзей»<br> вы помогаете<span class="payments__cursive"> развитию всей индустрии</span></h3>
+          </section>
+              <form class="form form_type_card">
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_donation">Выберите тип и сумму пожертвования</p>
+                  <fieldset class="form__container form__container_type_payment">
+                    <label class="form__label form__label_type_payment" for="onesPayment">
+                      <input class="form__item form__item_el_radio" type="radio" id="onesPayment" name="payment"  value="ones">
+                      <span class="form__pseudo-item form__pseudo-item_type_payment">РАЗОВОЕ</span>
+                    </label>
+                    <label class="form__label form__label_type_payment" for="monthsPayment">
+                      <input class="form__item form__item_el_radio" type="radio" id="monthsPayment" name="payment" value="months" checked>
+                      <span class="form__pseudo-item form__pseudo-item_type_payment">ЕЖЕМЕСЯЧНОЕ</span>
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_payment">Сумма поддержки</p>
+                  <fieldset class="form__container form__container_type_value_payment ">
+                    <label class="form__label form__label_type_value-payment" for="value5000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value5000" name="sum" value="5000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">5000</span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="value10000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value10000" name="sum" value="10000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">10000</span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="value50000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value50000" name="sum" value="50000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">50000</span>
+                    </label>
+                  </fieldset>
+                  <fieldset class="form__container">
+                    <label  class="form__label form_label_type_icon-rub">
+                      <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Другая сумма">
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_method">Способ оплаты</p>
+                  <fieldset class="form__container form__container_type_value_payment ">
+                    <label class="form__label form__label_type_value-payment" for="visa-mir">
+                      <input class="form__item form__item_el_radio form__item_type_visa-mir" type="radio" id="visa-mir" name="sum" value="5000">
+                      <span class="form__pseudo-item form__pseudo-item_type_visa-mir"></span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="g-pay">
+                      <input class="form__item form__item_el_radio form__item_type_g-pay" type="radio" id="g-pay" name="sum" value="10000">
+                      <span class="form__pseudo-item form__pseudo-item_type_g-pay"></span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="apple-pay">
+                      <input class="form__item form__item_el_radio form__item_type_apple-pay" type="radio" id="apple-pay" name="sum" value="50000">
+                      <span class="form__pseudo-item form__pseudo-item_type_apple-pay"></span>
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_card">Банковская карта</p>
+                  <div class="form__container form__container_type_card">
+                      <div class="form__front-side-card">
+                        <fieldset class="form__card-holders">
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="" placeholder="Номер карты">
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="" placeholder="Держатель карты">
+                        </fieldset>
+                        <div class="form__validity-period">
+                          <label class="form__validity-period_el_label" for="validity-period">Действует до</label>
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="validity-period" placeholder="ММ/ГГ">
+                        </div>
+                        <div class="form__to-be-paid">
+                          <p class="form__to-be-paid_el_text">Итого к оплате</p>
+                          <p class="form__to-be-paid_el_number">1000 ₽</p>
+                        </div>
+                      </div>
+                      <fieldset class="form__back-side-card">
+                          <div class="form__line-card"></div>
+                          <label class="form__label_type_cvc" for="cvc">CVV / CVC</label>
+                          <input class="form__item form__item_el_text form__item_el_cvc" type="text" name="sum-value" id="" placeholder="***">
+                          <p class="form__help-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+                      </fieldset>
+                  </div>
+                  <fieldset class="form__container form__container_type_holders">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Имя">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Фамилия">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Телефон">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Email">
+                  </fieldset>
+                  <fieldset class="form__container form__container_type_confirmation">
+                    <label class="form__label form__label_type_checkbox" for="agree">
+                      <input class="form__item form__item_el_checkbox" type="checkbox" id="agree" name="agree"  value="agree">
+                      <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                      <span class="form__label-text">Согласен с <span class="form__label-text_type_touluse">офертой</span></span>
+                    </label>
+                    <label class="form__label form__label_type_checkbox" for="acquainted">
+                      <input class="form__item form__item_el_checkbox" type="checkbox" id="acquainted" name="acquainted"  value="acquainted">
+                      <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                      <span class="form__label-text">Ознакомился и согласен с <span class="form__label-text_type_touluse">политикой обработки<br> персональных данных</span></span>
+                    </label>
+                  </fieldset>
+                  <fieldset class="form__container">
+                    <button type="submit" class="form__button form__button_color_blue">Поддержать фонд</button>
+                </fieldset>
+              </form>      
+            <!--Statistics-->
+            <section class="statistics content__statistics">
+                <ul class="statistics__list">
+                    <li class="statistics__item">
+                        <p class="statistics__count">2 500</p>
+                        <p class="statistics__text">НКО <span
+                                class="statistics__text statistics__text_type_bold">стали</span>
+                            участниками
+                            наших программ</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">150</p>
+                        <p class="statistics__text"><span
+                                class="statistics__text statistics__text_type_bold">Профессионалов</span>
+                            благотворительности получили дипломы</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">4 000</p>
+                        <p class="statistics__text">Волонтеров <span
+                                class="statistics__text statistics__text_type_bold">были
+                                привлечены</span> через нас для помощи различным НКО</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">250</p>
+                        <p class="statistics__text">Экспертов <span
+                                class="statistics__text statistics__text_type_bold">преподают</span> в наших программах
+                        </p>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <script src="./scripts/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,5 @@
+.form__container_type_card {
+  display: grid;
+  grid-template-columns: minmax(30%, 183px) minmax(30%, 181px) minmax(30%, 188px);
+  grid-template-rows:29px 232px 6px;
+}
