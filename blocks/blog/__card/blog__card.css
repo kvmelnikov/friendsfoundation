@@ -4,10 +4,8 @@
 }
 @media screen and (max-width:680px){
     .blog__card{
-        flex: 0 0 100%;
-       /*  max-width: 100%; */
-        user-select: none;
-        will-change: transform;
         background: white;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }

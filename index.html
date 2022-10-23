@@ -243,64 +243,60 @@
           </div>
         </div>
       </section>
-
-      <section class="blog" data-slider>
+      <!--blog-->
+      <section class="blog">
         <h1 class="blog__title">Блог</h1>
-        <div class="blog__container">
-          <div class="blog__cards">
-          <div class="blog__main-card">
-            <p class="blog__main-card-date">7 Июля 2021</p>
-            <h2 class="blog__main-card-title">Россияне 
-              и благотворительность</h2>
-            <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
-          </div>
-          <div class="blog__card blog__main-card_visible">
-            <img src="./images/main-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Россияне 
-              и благотворительность</h2>
-            <p class="blog__card-text">Что статистика знает о добрых делах</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/university-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
-            <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/for-the-poor-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Благотворительность в России</h2>
-            <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/box-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">Кому жертвуют в России?</h2>
-            <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
-          </div>
-          <div class="blog__card">
-            <img src="./images/people-card.svg" alt="" class="blog__card-img">
-            <p class="blog__card-date">7 Июля 2021</p>
-            <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
-            <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
-          </div>
-          </div>
-        </div>
-        <button class="blog__slider-control" data-slide="prev">
-          <span class="blog__sr-only">Go Left</span>
-        </button>
-        <button class="blog__slider-control" data-slide="next">
-          <span class="blog__sr-only">Go Right</span>
-        </button>
-        <ol class="blog__slider-indicators">
-          <li class="blog__slider-indicator" data-slide-to="0"></li>
-          <li class="blog__slider-indicator" data-slide-to="1"></li>
-          <li class="blog__slider-indicator" data-slide-to="2"></li>
-          <li class="blog__slider-indicator" data-slide-to="3"></li>
-          <li class="blog__slider-indicator" data-slide-to="4"></li>
+        <div class="slider" data-slider  data-autoplay="true" data-interval="10000">
+          <div class="slider__container blog__container">
+            <div class="blog__cards slider__items">
+              <div class="blog__main-card">
+                <p class="blog__main-card-date">7 Июля 2021</p>
+                <h2 class="blog__main-card-title">Россияне 
+                  и благотворительность</h2>
+                <p class="blog__main-card-text">Что статистика знает о добрых делах</p>
+              </div>
+                <div class="slider__item blog__card blog__main-card_visible">
+                  <img src="./images/main-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Россияне 
+                    и благотворительность</h2>
+                  <p class="blog__card-text">Что статистика знает о добрых делах</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/university-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Выпускной МШПФ 3.0</h2>
+                  <p class="blog__card-text">Выпуск уже третьего набора Московской Школы Профессиональной Филантропии</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/for-the-poor-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Благотворительность в России</h2>
+                  <p class="blog__card-text">Как работает благотворительность в России: кто, как, почему и сколько жертвует другим</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/box-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">Кому жертвуют в России?</h2>
+                  <p class="blog__card-text">Самые частые случаи благотворительности — поддержка детей, религиозных ..</p>
+                </div>
+                <div class="slider__item blog__card">
+                  <img src="./images/people-card.svg" alt="" class="blog__card-img">
+                  <p class="blog__card-date">7 Июля 2021</p>
+                  <h2 class="blog__card-title">День рождения фонда «Друзья»</h2>
+                  <p class="blog__card-text">День, в который собрались все друзья фонда.</p>
+                </div>
+              </div>
+            </div>
+        <ol class="blog__slider-indicators slider__indicators">
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="0"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="1"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="2"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="3"></li>
+          <li class="blog__slider-indicator slider__indicator" data-slide-to="4"></li>
         </ol>
         <button class="blog__button">Перейти в блог</button>
+      </div>
       </section>
       <!--friends-->
       <section class="friends">
