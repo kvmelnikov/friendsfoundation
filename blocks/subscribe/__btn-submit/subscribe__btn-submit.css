@@ -1,0 +1,21 @@
+.subscribe__btn-submit {
+    border-radius: 56px;
+    height: 56px;
+    width: 152px;
+    border: none;
+    background-color: #528CBE;
+    color: #FFFFFF;
+    padding: 0;
+}
+
+.subscribe__btn-submit:hover {
+    background-color: #487FAE;
+    transition: background-color .5s linear;
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe__btn-submit {
+        width: 327px;
+        height: 56px;
+    }
+  }

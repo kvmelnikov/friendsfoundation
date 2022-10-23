@@ -215,6 +215,17 @@
 @import url(../blocks/form/__button/form__button.css);
 @import url(../blocks/form/__button/_color/form__button_color_green.css);
 
+/* subscribe */
+
+@import url(../blocks/subscribe/subscribe.css);
+@import url(../blocks/subscribe/__description/subscribe__description.css);
+@import url(../blocks/subscribe/__title/subscribe__title.css);
+@import url(../blocks/subscribe/__subtitle/subscribe__subtitle.css);
+@import url(../blocks/subscribe/__input/subscribe__input.css);
+@import url(../blocks/subscribe/__btn-submit/subscribe__btn-submit.css);
+@import url(../blocks/subscribe/__form/subscribe__form.css);
+
+
 /* footer */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
@@ -229,3 +240,4 @@
 @import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_text.css);
 @import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_copyright.css);
 @import url(../blocks/footer/__text/footer__text.css);
+

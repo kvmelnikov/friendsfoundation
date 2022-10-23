@@ -1,0 +1,10 @@
+.subscribe__description {
+    margin: 42px 0 43px 0;
+    max-width: calc(1280px - (125px + 652px));
+}
+
+@media screen and (max-width: 767px) {
+    .subscribe__description {
+        margin: 40.5px 24px 36.5px 24px;
+    }
+  }
