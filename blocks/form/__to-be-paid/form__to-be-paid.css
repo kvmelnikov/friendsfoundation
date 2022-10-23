@@ -1,0 +1,9 @@
+.form__to-be-paid {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  max-width: 92px;
+  grid-column: 3;
+  grid-row: 3;
+}

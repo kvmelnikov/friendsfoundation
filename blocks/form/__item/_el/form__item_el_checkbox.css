@@ -1,0 +1,12 @@
+.form__item_el_checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__item_el_checkbox:checked + .form__pseudo-item_type_checkbox {
+  background-image: url(../../../../images/checkbox-active.svg);
+  border: 0;
+}
