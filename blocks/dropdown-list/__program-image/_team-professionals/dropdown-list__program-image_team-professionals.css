@@ -1,0 +1,16 @@
+.dropdown-list__program-image_team-professionals {
+  background: url(../../../../images/logo-team.svg);
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-image_team-professionals {
+    width: 17px;
+    height: 17px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+}

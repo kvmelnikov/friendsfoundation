@@ -1,0 +1,44 @@
+.dropdown-list__program-pharagraph {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 9px;
+  line-height: 13px;
+  color: #000000;
+  max-width: 222px;
+  padding: 0;
+  margin: 0 100px 45px 105px;
+}
+
+@media screen and (max-width: 1128px) {
+  .dropdown-list__program-pharagraph {
+    margin-left: 85px;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .dropdown-list__program-pharagraph {
+    margin-bottom: 30px;
+    font-size: 7px;
+    line-height: 11px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .dropdown-list__program-pharagraph {
+    margin-left: 70px;
+    max-width: 230px;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-pharagraph {
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    max-width: 342px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+}
