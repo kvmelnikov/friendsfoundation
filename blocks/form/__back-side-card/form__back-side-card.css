@@ -11,3 +11,15 @@
   grid-template-columns: 205px 164px;
   grid-template-rows: 25px 35px 31px 11px 125px;
 }
+
+@media screen and (max-width: 890px) { 
+  .form__back-side-card {
+    z-index: 1;
+    grid-template-columns: 100%;
+    grid-column: 3;
+    grid-row: 2;
+    background-color: #F8F8F8;
+    justify-self: end;
+  }
+
+}

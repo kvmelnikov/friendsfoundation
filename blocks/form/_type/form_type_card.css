@@ -5,3 +5,11 @@
     margin: -263px auto 0 auto;
     padding: 56px 0 72px 0;
 }
+
+
+@media screen and (max-width: 890px) {
+    .form_type_card {
+        margin-top: -210px;
+        padding: 24px 0 24px 0;
+    }
+}

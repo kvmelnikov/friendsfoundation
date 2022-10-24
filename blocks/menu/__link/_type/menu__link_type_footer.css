@@ -1,0 +1,13 @@
+.menu__link_type_footer {
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: relative;
+    padding: 0 0 20px;
+    box-sizing: border-box;
+    background-size: cover;
+  }

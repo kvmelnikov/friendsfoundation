@@ -5,3 +5,12 @@
   grid-column: 2;
   grid-row: 3/4;
 }
+
+@media screen and (max-width: 890px) {  
+  .form__item_el_cvc {
+    grid-column: 1;
+    grid-row: 2;
+    background-color: #fff;
+  }
+
+
