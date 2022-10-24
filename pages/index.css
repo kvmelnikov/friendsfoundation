@@ -304,7 +304,10 @@
 @import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_text.css);
 @import url(../blocks/footer/__copyright-element/_type/footer__copyright-element_type_copyright.css);
 @import url(../blocks/footer/__text/footer__text.css);
-
+@import url(../blocks/footer/__menu/footer__menu.css);
+@import url(../blocks/footer/__logo/footer__logo.css);
+@import url(../blocks/menu/__body-main/_type/menu__body-main_type_footer.css);
+@import url(../blocks/menu/__link/_type/menu__link_type_footer.css);
 
 /* contacts */
 @import url(../blocks/contacts/contacts.css);
