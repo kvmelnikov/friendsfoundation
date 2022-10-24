@@ -1,0 +1,15 @@
+.payments__title_type_card {
+    width: 90%;
+    max-width: 855px;
+    font-size: 42px;
+    line-height: 56px;
+    margin: 56px auto 55px auto;
+    text-align: center;
+}
+
+@media screen and (max-width: 610px) {
+    .payments__title_type_card  {
+      font-size: 38px;
+      line-height: 42px;
+    }
+  }

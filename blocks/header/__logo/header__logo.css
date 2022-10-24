@@ -1,0 +1,30 @@
+.header__logo {
+  margin: 15px 0px 15px 18px;
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  max-width: 82px;
+  gap: 8px;
+}
+
+@media screen and (max-width: 1208px) {
+	.header__logo {
+    max-width: 70px;
+	}
+}
+
+@media screen and (max-width: 918px) {
+	.header__logo {
+    max-width: 60px;
+    margin: 10px 0px 10px 13px;
+    gap: 5px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__logo {
+    max-width: 83px;
+    margin: 11px 0px 11px 72px;
+    gap: 9px;
+	}
+}

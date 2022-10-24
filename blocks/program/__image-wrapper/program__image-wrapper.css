@@ -1,0 +1,11 @@
+.program__image-wrapper {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+@media screen and (max-width: 639px) {
+    .program__image-wrapper  {
+       display: none;
+    }
+}
