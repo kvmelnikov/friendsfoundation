@@ -6,3 +6,10 @@
     margin: 56px auto 55px auto;
     text-align: center;
 }
+
+@media screen and (max-width: 610px) {
+    .payments__title_type_card  {
+      font-size: 38px;
+      line-height: 42px;
+    }
+  }

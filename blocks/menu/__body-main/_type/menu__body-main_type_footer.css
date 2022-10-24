@@ -1,0 +1,7 @@
+.menu__body-main_type_footer {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    gap: 32px;
+  }

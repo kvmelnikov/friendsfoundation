@@ -11,3 +11,10 @@
   padding: 24px 0 16px 0;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 890px) {  
+  .form__card-holders {
+    grid-column: 2/4;
+  }
+
+}
