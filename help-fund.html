@@ -284,7 +284,23 @@
                     </li>
                 </ul>
             </section>
-            <section class="help">
+			<section class="feedback">
+				<h2 class="feedback__title">Связаться с нами</h2>
+				<p class="feedback__subtitle">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
+				<form action="#" class="feedback__form">
+					<div class="feedback__description">
+						<input type="text" name="feedback-name" placeholder="Имя" class="feedback__input">
+						<input type="email" name="feedback-email" placeholder="E-mail" class="feedback__input">
+					</div>
+					<textarea name="feedback-textarea" id="" cols="30" rows="10" class="feedback__textarea" placeholder="Сообщение"></textarea>
+					<div class="feedback__checkbox">
+						<input type="checkbox" name="checkbox-license" id="license">
+						<label for="license">Я согласен с <a href="#" class="feedback__link">пользовательским соглашением</a></label>
+					</div>
+					<input type="submit" value="Отправить" class="feedback__submit">
+				</form>
+			</section>
+      <section class="help">
                 <h2 class="help__title">Как еще вы можете помочь</h2>
                 <article class="help__card">
                     <div class="help__description">

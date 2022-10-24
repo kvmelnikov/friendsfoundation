@@ -1,0 +1,19 @@
+.feedback__textarea {
+  background: #f8f8f8;
+  border-radius: 26px;
+  border: none;
+  outline: none;
+  width: 678px;
+  height: 161px;
+  margin-bottom: 24px;
+  padding: 0;
+  resize: none;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__textarea {
+    width: 327px;
+    height: 161px;
+    margin: 0 auto 16px;
+  }
+}
