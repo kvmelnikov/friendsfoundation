@@ -1,0 +1,11 @@
+.feedback__submit {
+  background: #f8f8f8;
+  border-radius: 56px;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  height: 56px;
+}
