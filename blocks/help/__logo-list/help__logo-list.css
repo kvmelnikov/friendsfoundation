@@ -1,0 +1,7 @@
+.help__logo-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 16px 0 0 0;
+    gap: 16px;
+}

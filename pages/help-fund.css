@@ -14,3 +14,16 @@
 @import url('../blocks/statistics/__count/statistics__count.css');
 @import url('../blocks/statistics/__text/statistics__text.css');
 @import url('../blocks/statistics/__text/_type/statistics__text_type_bold.css');
+
+@import url(../blocks/help/help.css);
+@import url(../blocks/help/__title/help__title.css);
+@import url(../blocks/help/__card/help__card.css);
+@import url(../blocks/help/__description/help__description.css);
+@import url(../blocks/help/__card-title/help__card-title.css);
+@import url(../blocks/help/__card-paragraph/help__card-paragraph.css);
+@import url(../blocks/help/__link/help__link.css);
+@import url(../blocks/help/__image/card__image.css);
+@import url(../blocks/help/__card-btn/help__card-btn.css);
+@import url(../blocks/help/__logo/help__logo.css);
+@import url(../blocks/help/__logo-item/help__logo-item.css);
+@import url(../blocks/help/__logo-list/help__logo-list.css);
