@@ -9,7 +9,9 @@
   padding: 0;
   resize: none;
 }
-
+.feedback__textarea::placeholder {
+  margin-top: 50px;
+}
 @media screen and (max-width: 767px) {
   .feedback__textarea {
     width: 327px;
@@ -17,3 +19,9 @@
     margin: 0 auto 16px;
   }
 }
+.feedback__textarea::-webkit-input-placeholder {
+  line-height: 50px
+}
+.feedback__textarea::-moz-placeholder          {line-height: 50px}/* Firefox 19+ */
+.feedback__textarea:-moz-placeholder           {line-height: 50px}/* Firefox 18- */
+.feedback__textarea:-ms-input-placeholder      {line-height: 50px}

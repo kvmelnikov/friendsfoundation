@@ -2,7 +2,7 @@
   max-width: 1032px;
   display: flex;
   flex-direction: column;
-  margin: 96px auto 0;
+  margin: 92px auto 96px auto;
   padding: 0;
   overflow: hidden;
 }

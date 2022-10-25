@@ -1,3 +1,8 @@
 .content__values {
-    margin: 0 auto;
+    margin: 96px auto 96px auto;
+}
+@media screen and (max-width: 480px) {
+    .content__values{
+        margin: 56px auto 56px auto;
+    }
 }

@@ -1,5 +1,8 @@
 .partners__slider-item {
     opacity: 0.5;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .partners__slider-item:hover {

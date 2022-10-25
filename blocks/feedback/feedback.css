@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: column;
   max-width: 680px;
-  margin: 296px auto 0;
+  margin: 96px auto 0;
   align-items: center;
 }
 
@@ -10,6 +10,6 @@
   .feedback {
     flex-direction: column;
     width: 375px;
-    margin: 68px auto 0;
+    margin: 56px auto 0;
   }
 }
