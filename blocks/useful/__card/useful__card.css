@@ -13,6 +13,7 @@
 .useful__card:hover{
     background: white;
     box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 .useful__card .useful__logo {
     -moz-transition: all 1s ease-out;

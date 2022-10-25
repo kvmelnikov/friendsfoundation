@@ -92,6 +92,7 @@
 @import url(../blocks/help/__logo/help__logo.css);
 @import url(../blocks/help/__logo-item/help__logo-item.css);
 @import url(../blocks/help/__logo-list/help__logo-list.css);
+@import url(../blocks/help/__title-italic/help__title-italic.css);
 
 
 /* payments */

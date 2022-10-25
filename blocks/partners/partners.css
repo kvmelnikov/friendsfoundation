@@ -3,7 +3,7 @@
     flex-direction: column;
     max-width: 1031px;
     height: 196px;
-    margin: 0 auto;
+    margin: 96px auto 96px auto;
     gap: 23px;
     position: relative;
 }
@@ -12,5 +12,6 @@
     .partners{
         max-width: 375px;
         max-height: 145px;
+        margin: 56px auto 56px auto;
     }
 }

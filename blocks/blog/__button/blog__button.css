@@ -10,7 +10,7 @@
     height: 56px;
     align-items: center;
     border-radius: 35px;
-    margin: 56px auto 96px;
+    margin: 56px auto 0;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
@@ -20,9 +20,10 @@
 }
 .blog__button:hover{
     background: #F1F5F9;
+    cursor: pointer;
 }   
 @media screen and (max-width:680px){
     .blog__button{
-        margin: 56px auto 74px;
+        margin: 56px auto 0;
     }
 }
