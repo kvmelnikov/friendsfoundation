@@ -26,7 +26,7 @@
 	bottom: 0;
 }
 
-.header__burger span {
+.header__burger .header__span-burger {
 	position: absolute;
 	left: 0;
 	top: 50%;
