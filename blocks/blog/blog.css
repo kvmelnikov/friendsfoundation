@@ -1,5 +1,5 @@
 .blog{
-    margin: auto;
+    margin: 96px auto 96px auto;
     align-items: center;
     max-width: 1032px;
 }
@@ -12,5 +12,6 @@
     .blog{
         max-width: 688px;
         position: relative;
+        margin: 56px auto 56px auto;
     }
 }

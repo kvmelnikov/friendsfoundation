@@ -4,12 +4,12 @@
     font-weight: 700;
     font-size: 41px;
     line-height: 50px;
-    margin: 96px auto 56px;
+    margin: 0 auto 56px;
     text-align: center;
 }
 @media screen and (max-width: 500px){
     .useful__title{
     font-size: 32px;
-    margin: 56px auto 24px;
+    margin: 0 auto 24px;
     }
 }

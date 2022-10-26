@@ -1,0 +1,15 @@
+.feedback__subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 0 48px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}

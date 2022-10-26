@@ -16,7 +16,7 @@
 @import url(../blocks/menu/__list/menu__list.css);
 @import url(../blocks/menu/__link/menu__link.css);
 @import url(../blocks/header/__social/header__social.css);
-@import url(../blocks/header/__social-link/header__social-link.css);
+@import url(../blocks/header/__social-icon/header__social-icon.css);
 @import url(../blocks/header/__language/header__language.css);
 @import url(../blocks/header/__donations/header__donations.css);
 @import url(../blocks/header/__donations-button/header__donations-button.css);
@@ -28,22 +28,21 @@
 @import url(../blocks/menu/__item/menu__item.css);
 @import url(../blocks/header/__burger/header__burger.css);
 @import url(../blocks/social/social.css);
-@import url(../blocks/social/__link-tg/social__link-tg.css);
-@import url(../blocks/social/__link-tg/_white/social__link-tg_white.css);
-@import url(../blocks/social/__link-vk/social__link-vk.css);
-@import url(../blocks/social/__link-vk/_white/social__link-vk_white.css);
-@import url(../blocks/social/__link-vk/_dark/social__link-vk_dark.css);
-@import url(../blocks/social/__link-tg/_dark/social__link-tg_dark.css);
+@import url(../blocks/social/__icon-tg/social__icon-tg.css);
+@import url(../blocks/social/__icon-tg/_dark/social__icon-tg_dark.css);
+@import url(../blocks/social/__icon-tg/_white/social__icon-tg_white.css);
+@import url(../blocks/social/__icon-vk/social__icon-vk.css);
+@import url(../blocks/social/__icon-vk/_dark/social__icon-vk_dark.css);
+@import url(../blocks/social/__icon-vk/_white/social__icon-vk_white.css);
 @import url(../blocks/menu/_open/menu_open.css);
 @import url(../blocks/dropdown-list/__back-button/dropdown-list__back-button.css);
 @import url(../blocks/menu/__button-close/menu__button-close.css);
 @import url(../blocks/dropdown-list/__item/dropdown-list__item.css);
 @import url(../blocks/dropdown-list/__item-container/dropdown-list__item-container.css);
-@import url(../blocks/menu/__link-dropdown/menu__link-dropdown.css);
-@import url(../blocks/menu/__item-hover/menu__item-hover.css);
+@import url(../blocks/menu/__dropdown-item/menu__dropdown-item.css);
+@import url(../blocks/menu/__link-hover/menu__link-hover.css);
 @import url(../blocks/language/language.css);
-@import url(../blocks/language/__english/language__english.css);
-@import url(../blocks/language/__russian/language__russian.css);
+@import url(../blocks/language/__item/language__item.css);
 @import url(../blocks/menu/__list-language/menu__list-language.css);
 @import url(../blocks/menu/__body-main/menu__body-main.css);
 @import url(../blocks/menu/__list-social/menu__list-social.css);
@@ -92,6 +91,7 @@
 @import url(../blocks/help/__logo/help__logo.css);
 @import url(../blocks/help/__logo-item/help__logo-item.css);
 @import url(../blocks/help/__logo-list/help__logo-list.css);
+@import url(../blocks/help/__title-italic/help__title-italic.css);
 
 
 /* payments */
@@ -155,6 +155,19 @@
 @import url(../blocks/form/__label-text/_type/form__label-text_type_touluse.css);
 @import url(../blocks/form/__label/_type/form__label_type_checkbox.css);
 @import url(../blocks/form/__button/_color/form__button_color_blue.css);
+
+
+/* feedback */
+@import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__subtitle/feedback__subtitle.css);
+@import url(../blocks/feedback/__description/feedback__description.css);
+@import url(../blocks/feedback/__input/feedback__input.css);
+@import url(../blocks/feedback/__form/feedback__form.css);
+@import url(../blocks/feedback/__textarea/feedback__textarea.css);
+@import url(../blocks/feedback/__checkbox/feedback__checkbox.css);
+@import url(../blocks/feedback/__submit/feedback__submit.css);
+@import url(../blocks/feedback/__link/feedback__link.css);
 @import url(../blocks/form/__label/_type/form__label_type_value-payment-cards.css);
 
 
