@@ -12,8 +12,8 @@
 <body class="body">
 	<div class="page">
 		<header class="header">
-			<button class="header__burger" aria-label="Открыть меню">
-				<span></span>
+			<button type="button" class="header__burger" aria-label="Открыть меню">
+				<span class="header__span-burger"></span>
 			</button>
 			<div class="header__logo">
 				<a href="./index.html" class="header__logo-link">
@@ -28,8 +28,8 @@
 			  <ul class="menu__list">
 				<button type="button" name="close" class="menu__button-close"><span class="menu__sr-only">Mobile menu</span></button>
 				<ul class="menu__body-main">
-				  <li class="menu__item menu__item-hover">
-					<a href="#" class="menu__link menu__link-dropdown">Фонд</a>
+				  <li class="menu__item menu__link-hover">
+					<a href="#" class="menu__link menu__dropdown-item">Фонд</a>
 					<ul class="menu__sub-list menu__list-about dropdown-list">
 					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
 					  <ul class="dropdown-list__item-container">
@@ -72,8 +72,8 @@
 					  </ul>
 					</ul>
 				  </li>
-				  <li class="menu__item menu__item-hover">
-					<a href="#" class="menu__link menu__link-dropdown">Программы</a>
+				  <li class="menu__item menu__link-hover">
+					<a href="#" class="menu__link menu__dropdown-item">Программы</a>
 					<ul class="menu__sub-list menu__list-programs dropdown-list">
 					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
 					  <ul class="dropdown-list__programs-container">
@@ -89,7 +89,7 @@
 							</div>
 							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">ProCharity</p>
 							<p class="dropdown-list__program-pharagraph">Скорая интеллектуальная помощь для благотворительных фондов</p>
-							<button class="dropdown-list__program-button">О программе</button>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
 						  </a>
 						</li>
 						<li class="dropdown-list__program dropdown-list__program_school">
@@ -104,7 +104,7 @@
 							</div>
 							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Московская школа профессиональной филантропии</p>
 							<p class="dropdown-list__program-pharagraph">Повышение квалификации и профессионализма сотрудников НКО</p>
-							<button class="dropdown-list__program-button">О программе</button>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
 						  </a>
 						</li>
 						<li class="dropdown-list__program dropdown-list__program_team-professionals">
@@ -119,7 +119,7 @@
 							</div>
 							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Команда профессионалов</p>
 							<p class="dropdown-list__program-pharagraph">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
-							<button class="dropdown-list__program-button">О программе</button>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
 						  </a>
 						</li>
 					  </ul>
@@ -132,26 +132,24 @@
 				  <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
 				</ul>
 				<ul class="language menu__list-language">
-				  <li class="menu__language"><a href="#" class="language__russian">Ру</a></li>
-				  <li class="menu__language"><a href="#" class="language__english">En</a></li>
+				  <li class="menu__language"><a href="#" class="language__item">Ру</a></li>
+				  <li class="menu__language"><a href="#" class="language__item">En</a></li>
 				</ul>
 				<ul class="social menu__list-social">
-				  <li class="social__link-vk social__link-vk_dark"><a href="#" class="menu__social-item"></a></li>
-				  <li class="social__link-tg social__link-tg_dark"><a href="#" class="menu__social-item"></a></li>
+				  <li class="social__icon-vk social__icon-vk_dark"><a href="#" class="menu__social-link"></a></li>
+				  <li class="social__icon-tg social__icon-tg_dark"><a href="#" class="menu__social-link"></a></li>
 				</ul>
 			  </ul>
 			</nav>
 			<div class="social header__social">
-			  <a href="#" class="header__social-link social__link-vk social__link-vk_white"></a>
-			  <a href="#" class="header__social-link social__link-tg social__link-tg_white"></a>
+			  <a href="#" class="header__social-icon social__icon-vk social__icon-vk_white"></a>
+			  <a href="#" class="header__social-icon social__icon-tg social__icon-tg_white"></a>
 			</div>
 			<div class="language header__language">
-			  <a href="#" class="language__russian">Ру</a>
-			  <a href="#" class="language__english">En</a>
+			  <a href="#" class="language__item">Ру</a>
+			  <a href="#" class="language__item">En</a>
 			</div>
-			<div class="header__donations">
-			  <button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
-			</div>
+			<button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
 		  </header>
         <main class="content">
           <section class="payments payments_type_card">
