@@ -1,0 +1,41 @@
+.activities__item_business {
+  background: #EEB250;
+  margin-left: 616px;
+  margin-top: -43px;
+  max-width: 416px;
+  max-height: 163px;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__item_business {
+    margin-left: 400px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__item_business {
+    margin-left: 320px;
+    max-width: 320px;
+    max-height: 125px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__item_business {
+    margin-left: 200px;
+    margin-top: -20px;
+    max-width: 250px;
+    max-height: 100px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__item_business {
+    display: flex;
+    margin-left: 67px;
+    margin-top: -7px;
+    z-index: 7;
+    max-width: 300px;
+    max-height: 103px;
+  }
+}

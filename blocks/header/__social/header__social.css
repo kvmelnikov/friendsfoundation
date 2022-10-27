@@ -1,0 +1,29 @@
+.header__social {
+  padding: 0;
+  margin: 16px 56px 16px 0;
+}
+
+@media screen and (max-width: 1028px) {
+	.header__social {
+    margin-right: 45px;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.header__social {
+    max-width: 50px;
+    gap: 12px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.header__social {
+		margin-right: 28px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__social {
+		display: none;
+	}
+}

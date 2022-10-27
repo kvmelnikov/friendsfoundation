@@ -1,0 +1,9 @@
+.help__link {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 33px;
+  color: #54A8B6;
+  text-decoration: none;
+  display: block;
+  margin-top: 16px;
+}

@@ -1,0 +1,10 @@
+.useful{
+    margin: 96px auto 96px auto;
+    align-items: center;
+    max-width: 1032px;
+}
+@media screen and (max-width: 500px){
+    .useful{
+        margin: 56px auto 56px auto;
+    }
+}

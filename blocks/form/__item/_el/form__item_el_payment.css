@@ -1,0 +1,13 @@
+.form__item_el_payment {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+}
+
+
+.form__item_el_payment:checked + .form__pseudo-item_type_payment {
+    background-color: #82607D;
+}
+

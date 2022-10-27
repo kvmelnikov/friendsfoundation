@@ -1,0 +1,10 @@
+@media screen and (max-width: 1250px){
+    .friends__img_size{
+        max-width: 632px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .friends__img_size{
+        max-width: 532px;
+    }
+}

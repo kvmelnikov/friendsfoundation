@@ -1,0 +1,15 @@
+.menu__list-language {
+  display: none;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .menu__list-language {
+	display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 16px;
+    margin-bottom: 32px;
+  }
+}

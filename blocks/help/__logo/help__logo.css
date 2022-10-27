@@ -1,0 +1,13 @@
+.help__logo {
+    display: flex;
+    flex-direction: column;
+    max-width: 416px;
+    margin-left: 60px;
+}
+
+@media screen  and (max-width: 767px){
+    .help__logo{
+        max-width: 327px;
+        margin: 0 auto;
+    }
+}

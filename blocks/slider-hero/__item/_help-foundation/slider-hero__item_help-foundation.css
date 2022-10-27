@@ -1,0 +1,14 @@
+.slider-hero__item_help-foundation {
+  background-image: url(../../../../images/slider-hero-foundation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}
+
+@media screen and (max-width: 400px) {
+  .slider-hero__item_help-foundation {
+    background-image: url(../../../../images/slider-hero-mobile.png);
+  }
+}

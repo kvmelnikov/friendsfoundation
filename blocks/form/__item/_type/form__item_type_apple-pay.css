@@ -1,0 +1,8 @@
+
+
+.form__item_type_apple-pay:checked + .form__pseudo-item_type_apple-pay {
+  background-image: url(../../../../images/apple-pay-active.svg);
+  background-position: center;
+  background-size: 78px 36px;
+  background-repeat: no-repeat;
+}

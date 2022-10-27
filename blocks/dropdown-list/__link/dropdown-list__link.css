@@ -1,0 +1,27 @@
+.dropdown-list__link {
+  text-decoration: none;
+  max-width: 170px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  box-sizing: border-box;
+  background-size: contain;
+  border: none;
+  background: transparent;
+}
+
+@media screen and (max-width: 900px) {
+	.dropdown-list__link {
+    max-width: 130px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.dropdown-list__link {
+    max-width: 280px;
+    align-items: center;
+	}
+}

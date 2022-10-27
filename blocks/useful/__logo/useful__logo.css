@@ -1,0 +1,16 @@
+.useful__logo{
+    padding-right: 44px;
+}
+@media screen and (max-width: 500px){
+    .useful__logo{
+        max-width: 120px;
+        position: absolute;
+        right: 27px;
+        bottom: 6px;
+        z-index: -1;
+        padding-right: 0;
+    }
+    /* .useful__logo:last-of-type{
+        bottom: 10px;
+    } */
+}

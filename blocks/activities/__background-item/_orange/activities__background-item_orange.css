@@ -1,0 +1,39 @@
+.activities__background-item_orange {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  left: 987px;
+  top: 330px;
+  background: #EEB250;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1040px) {
+  .activities__background-item_orange {
+    left: 760px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .activities__background-item_orange {
+    left: 630px;
+    top: 230px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__background-item_orange {
+    left: 300px;
+    top: 350px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_orange {
+    left: 348px;
+    top: 256px;
+    width: 4px;
+    height: 4px;
+  }
+}

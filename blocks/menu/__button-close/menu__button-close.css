@@ -1,0 +1,19 @@
+.menu__button-close {
+  background: url(../../../images/close-button.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  background-color: transparent;
+	border: none;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+	.menu__button-close {
+		display: block;
+	}
+}

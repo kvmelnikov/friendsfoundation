@@ -1,0 +1,25 @@
+.header__language {
+  display: flex;
+  gap: 16px;
+  margin: 18px 40px 0 0;
+  max-width: 64px;
+  max-height: 20px;
+}
+
+@media screen and (max-width: 953px) {
+	.header__language {
+    margin-right: 30px;
+	}
+}
+
+@media screen and (max-width: 853px) {
+	.header__language {
+		margin-right: 20px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__language {
+		display: none;
+	}
+}

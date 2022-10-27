@@ -1,0 +1,14 @@
+.feedback__description {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__description {
+    gap: 16px;
+    flex-direction: column;
+    width: 327px;
+    margin: 0 auto 16px;
+  }
+}

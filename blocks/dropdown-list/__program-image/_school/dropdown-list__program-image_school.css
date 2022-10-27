@@ -1,0 +1,16 @@
+.dropdown-list__program-image_school {
+  background: url(../../../../images/logo-school.svg);
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-image_school {
+    width: 22px;
+    height: 20px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+}

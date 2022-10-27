@@ -1,0 +1,30 @@
+.form__label_type_value-payment {
+  width: 40%;
+  max-width: 173px;
+  height: 56px;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  height: 56px;
+  color: #000;
+}
+
+
+@media screen and (max-width: 481px) {
+  .form__label_type_value-payment {
+    width: 50%;
+  }
+  .form__label_type_value-payment:nth-child(3) {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 16px;
+  }
+ }
+
+ @media screen and (max-width: 375px) {
+  .form__label_type_value-payment {
+    width: 50%;
+    max-width: 148px;
+  }
+ }

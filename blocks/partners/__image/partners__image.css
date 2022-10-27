@@ -1,0 +1,11 @@
+.partners__image {
+    width: 123.33px;
+    height: 123px;
+}
+
+@media screen and (max-width: 768px){
+    .partners__image{
+        width: 75.2px;
+        height: 75px;
+    }
+}

@@ -1,0 +1,31 @@
+.dropdown-list__program {
+  display: flex;
+  max-width: 427px;
+}
+
+@media screen and (max-width: 1180px) {
+  .dropdown-list__program {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .dropdown-list__program {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program {
+    max-width: 767px;
+    width: 100%;
+  }
+}
+
+.dropdown-list__program:hover .dropdown-list__logo-text {
+  color: #fff;
+}
+
+.dropdown-list__program:hover .dropdown-list__program-pharagraph {
+  color: #fff;
+}

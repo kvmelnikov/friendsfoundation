@@ -1,0 +1,9 @@
+.dropdown-list__logo-text_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+.dropdown-list__logo-text_mobile {
+  display: block;
+}
+}

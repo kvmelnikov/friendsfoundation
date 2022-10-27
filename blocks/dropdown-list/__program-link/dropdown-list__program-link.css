@@ -1,0 +1,5 @@
+.dropdown-list__program-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}

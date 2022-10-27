@@ -1,0 +1,31 @@
+.activities__background-item_mint-two {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 631px;
+  top: 47px;
+  background: #77C5D5;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 840px) {
+  .activities__background-item_mint-two {
+    left: 530px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__background-item_mint-two {
+    left: 300px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_mint-two {
+    left: -6px;
+    top: 172px;
+    width: 10px;
+    height: 10px;
+  }
+}

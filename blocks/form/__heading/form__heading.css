@@ -1,0 +1,18 @@
+.form__heading {
+    font-family:'Inter', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    margin-top: 56px;
+    margin-bottom: 38px;
+}
+
+
+@media screen and (max-width: 375px) {
+    .form__heading {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+}

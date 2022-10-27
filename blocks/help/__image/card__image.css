@@ -1,0 +1,26 @@
+.card__image {
+  margin-right: 115px;
+}
+
+.card__image:last-child {
+  margin-right: 0;
+  margin-left: 57px;
+}
+
+@media screen and (max-width: 880px) {
+  .card__image {
+    margin-right: 57px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card__image {
+    width: 327px;
+    margin-top: 32px;
+    margin-right: 0;
+  }
+
+  .card__image:last-child {
+    margin-left: 0;
+  }
+}

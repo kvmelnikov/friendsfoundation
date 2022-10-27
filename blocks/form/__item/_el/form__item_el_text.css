@@ -1,0 +1,10 @@
+.form__item_el_text {
+  width: 100%;
+  background-color: #F8F8F8;
+  height: 56px;
+  padding: 0 18px 0 18px;
+}
+
+.form__item_el_text::placeholder {
+  color: #999999;
+}

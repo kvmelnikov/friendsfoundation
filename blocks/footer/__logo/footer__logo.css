@@ -1,0 +1,9 @@
+.footer__logo {
+    margin-left: 0;
+}
+
+@media screen and (max-width: 950px) { 
+    .footer__logo {
+        align-self: start;
+    }
+}

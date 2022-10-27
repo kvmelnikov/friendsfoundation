@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./pages/help-fund.css">
+	<title>Добро</title>
+</head>
+
+<body class="body">
+	<div class="page">
+		<header class="header">
+			<button type="button" class="header__burger" aria-label="Открыть меню">
+				<span class="header__span-burger"></span>
+			</button>
+			<div class="header__logo">
+				<a href="./index.html" class="header__logo-link">
+			  	<img src="./images/header-logo.svg" alt="Логотип." class="header__logo-image">
+			  	<div class="header__text-container">
+						<p class="header__logo-foundation">Фонд</p>
+						<p class="header__logo-friends">Друзья</p>
+			  	</div>
+				</a>
+			</div>
+			<nav class="menu header__menu">
+			  <ul class="menu__list">
+				<button type="button" name="close" class="menu__button-close"><span class="menu__sr-only">Mobile menu</span></button>
+				<ul class="menu__body-main">
+				  <li class="menu__item menu__link-hover">
+					<a href="#" class="menu__link menu__dropdown-item">Фонд</a>
+					<ul class="menu__sub-list menu__list-about dropdown-list">
+					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+					  <ul class="dropdown-list__item-container">
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">О фонде «Друзья»</h2>
+							<p class="dropdown-list__subtitle">История фонда, миссия</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Структура фонда</h2>
+							<p class="dropdown-list__subtitle">Экспертный совет, Попечительский совет, Правление, Команда</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						   <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Документы</h2>
+							<p class="dropdown-list__subtitle">Оферта, Реквизиты, Устав, Договор пожертвования</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">Отчёты</h2>
+							<p class="dropdown-list__subtitle">Айдит, Годовой отчёт</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">FAQ</h2>
+							<p class="dropdown-list__subtitle">Ответы на часто задаваемые вопросы</p>
+						  </a>
+						</li>
+						<li class="dropdown-list__item">
+						  <a href="#" class="dropdown-list__link">
+							<h2 class="dropdown-list__title">СМИ о нас</h2>
+							<p class="dropdown-list__subtitle">Что пишут о нас в сети интернета</p>
+						  </a>
+						</li>
+					  </ul>
+					</ul>
+				  </li>
+				  <li class="menu__item menu__link-hover">
+					<a href="#" class="menu__link menu__dropdown-item">Программы</a>
+					<ul class="menu__sub-list menu__list-programs dropdown-list">
+					  <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
+					  <ul class="dropdown-list__programs-container">
+						<li class="dropdown-list__program dropdown-list__program_procharity">
+						  <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+							  <p class="dropdown-list__logo-text">ProCharity</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_procharity"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">ProCharity</p>
+							<p class="dropdown-list__program-pharagraph">Скорая интеллектуальная помощь для благотворительных фондов</p>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+						<li class="dropdown-list__program dropdown-list__program_school">
+						  <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+							  <p class="dropdown-list__logo-text">Московская школа профессиональной филантропии</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_school"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Московская школа профессиональной филантропии</p>
+							<p class="dropdown-list__program-pharagraph">Повышение квалификации и профессионализма сотрудников НКО</p>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+						<li class="dropdown-list__program dropdown-list__program_team-professionals">
+						   <a href="#" class="dropdown-list__program-link">
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_desktop">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+							  <p class="dropdown-list__logo-text">Команда профессионалов</p>
+							</div>
+							<div class="dropdown-list__program-logo dropdown-list__program-logo_mobile">
+							  <div class="dropdown-list__program-image dropdown-list__program-image_team-professionals"></div>
+							  <p class="dropdown-list__program-text">программа</p>
+							</div>
+							<p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Команда профессионалов</p>
+							<p class="dropdown-list__program-pharagraph">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
+							<button type="button" class="dropdown-list__program-button">О программе</button>
+						  </a>
+						</li>
+					  </ul>
+					</ul>
+				  </li>
+				  <li class="menu__item"><a href="#" class="menu__link">Для НКО</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Для бизнеса</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Партнёры</a></li>
+				  <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+				</ul>
+				<ul class="language menu__list-language">
+				  <li class="menu__language"><a href="#" class="language__item">Ру</a></li>
+				  <li class="menu__language"><a href="#" class="language__item">En</a></li>
+				</ul>
+				<ul class="social menu__list-social">
+				  <li class="social__icon-vk social__icon-vk_dark"><a href="#" class="menu__social-link"></a></li>
+				  <li class="social__icon-tg social__icon-tg_dark"><a href="#" class="menu__social-link"></a></li>
+				</ul>
+			  </ul>
+			</nav>
+			<div class="social header__social">
+			  <a href="#" class="header__social-icon social__icon-vk social__icon-vk_white"></a>
+			  <a href="#" class="header__social-icon social__icon-tg social__icon-tg_white"></a>
+			</div>
+			<div class="language header__language">
+			  <a href="#" class="language__item">Ру</a>
+			  <a href="#" class="language__item">En</a>
+			</div>
+			<button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
+		  </header>
+        <main class="content">
+          <section class="payments payments_type_card">
+              <h3 class="payments__title payments__title_type_card">
+                  Поддерживая «Друзей»<br> вы помогаете<span class="payments__cursive"> развитию всей индустрии</span></h3>
+          </section>
+              <form class="form form_type_card" name = "bigForm">
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_donation">Выберите тип и сумму пожертвования</p>
+                  <fieldset class="form__container form__container_type_payment">
+                    <label class="form__label form__label_type_payment" for="onesPayment">
+                      <input class="form__item form__item_el_radio" type="radio" id="onesPayment" name="payment"  value="ones">
+                      <span class="form__pseudo-item form__pseudo-item_type_payment">РАЗОВОЕ</span>
+                    </label>
+                    <label class="form__label form__label_type_payment" for="monthsPayment">
+                      <input class="form__item form__item_el_radio" type="radio" id="monthsPayment" name="payment" value="months" checked>
+                      <span class="form__pseudo-item form__pseudo-item_type_payment">ЕЖЕМЕСЯЧНОЕ</span>
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_payment">Сумма поддержки</p>
+                  <fieldset class="form__container form__container_type_value_payment ">
+                    <label class="form__label form__label_type_value-payment" for="value5000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value5000" name="sum" value="5000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">5000</span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="value10000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value10000" name="sum" value="10000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">10000</span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment" for="value50000">
+                      <input class="form__item form__item_el_radio" type="radio" id="value50000" name="sum" value="50000">
+                      <span class="form__pseudo-item form__pseudo-item_type_value-payment">50000</span>
+                    </label>
+                  </fieldset>
+                  <fieldset class="form__container">
+                    <label  class="form__label form_label_type_icon-rub">
+                      <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Другая сумма">
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_method">Способ оплаты</p>
+                  <fieldset class="form__container form__container_type_value_payment ">
+                    <label class="form__label form__label_type_value-payment form__label_type_value-payment-cards" for="visa-mir">
+                      <input class="form__item form__item_el_radio form__item_type_visa-mir " type="radio" id="visa-mir" name="sum" value="5000">
+                      <span class="form__pseudo-item form__pseudo-item_type_visa-mir"></span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment form__label_type_value-payment-cards" for="g-pay">
+                      <input class="form__item form__item_el_radio form__item_type_g-pay" type="radio" id="g-pay" name="sum" value="10000">
+                      <span class="form__pseudo-item form__pseudo-item_type_g-pay"></span>
+                    </label>
+                    <label class="form__label form__label_type_value-payment form__label_type_value-payment-cards" for="apple-pay">
+                      <input class="form__item form__item_el_radio form__item_type_apple-pay" type="radio" id="apple-pay" name="sum" value="50000">
+                      <span class="form__pseudo-item form__pseudo-item_type_apple-pay"></span>
+                    </label>
+                  </fieldset>
+                  <p class="form__container form__fieldset-heading form__fieldset-heading_type_card">Банковская карта</p>
+                  <div class="form__container form__container_type_card">
+                      <div class="form__front-side-card">
+                        <fieldset class="form__card-holders">
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="" placeholder="Номер карты">
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="" placeholder="Держатель карты">
+                        </fieldset>
+                        <div class="form__validity-period">
+                          <label class="form__validity-period_el_label" for="validity-period">Действует до</label>
+                          <input class="form__item form__item_el_text form__item_el_text-card" type="text" name="sum-value" id="validity-period" placeholder="ММ/ГГ">
+                        </div>
+                        <div class="form__to-be-paid">
+                          <p class="form__to-be-paid_el_text">Итого к оплате</p>
+                          <p class="form__to-be-paid_el_number">1000 ₽</p>
+                        </div>
+                      </div>
+                      <fieldset class="form__back-side-card">
+                          <div class="form__line-card"></div>
+                          <label class="form__label_type_cvc" for="cvc">CVV / CVC</label>
+                          <input class="form__item form__item_el_text form__item_el_cvc" type="text" name="sum-value" id="" placeholder="***">
+                          <p class="form__help-text">Последние 3 цифры на белой полосе с обратной стороны карты</p>
+                      </fieldset>
+                  </div>
+                  <fieldset class="form__container form__container_type_holders">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Имя">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Фамилия">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Телефон">
+                    <input class="form__item form__item_el_text" type="text" name="sum-value" id="" placeholder="Email">
+                  </fieldset>
+                  <fieldset class="form__container form__container_type_confirmation">
+                    <label class="form__label form__label_type_checkbox" for="agree">
+                      <input class="form__item form__item_el_checkbox" type="checkbox" id="agree" name="agree"  value="agree">
+                      <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                      <span class="form__label-text">Согласен с <span class="form__label-text_type_touluse">офертой</span></span>
+                    </label>
+                    <label class="form__label form__label_type_checkbox" for="acquainted">
+                      <input class="form__item form__item_el_checkbox" type="checkbox" id="acquainted" name="acquainted"  value="acquainted">
+                      <span class="form__pseudo-item form__pseudo-item_type_checkbox"></span>
+                      <span class="form__label-text">Ознакомился и согласен с <span class="form__label-text_type_touluse">политикой обработки<br> персональных данных</span></span>
+                    </label>
+                  </fieldset>
+                  <fieldset class="form__container">
+                    <button type="submit" class="form__button form__button_color_blue">Поддержать фонд</button>
+                </fieldset>
+              </form>      
+            <!--Statistics-->
+            <section class="statistics content__statistics">
+                <ul class="statistics__list">
+                    <li class="statistics__item">
+                        <p class="statistics__count">2 500</p>
+                        <p class="statistics__text">НКО <span
+                                class="statistics__text statistics__text_type_bold">стали</span>
+                            участниками
+                            наших программ</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">150</p>
+                        <p class="statistics__text"><span
+                                class="statistics__text statistics__text_type_bold">Профессионалов</span>
+                            благотворительности получили дипломы</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">4 000</p>
+                        <p class="statistics__text">Волонтеров <span
+                                class="statistics__text statistics__text_type_bold">были
+                                привлечены</span> через нас для помощи различным НКО</p>
+                    </li>
+                    <li class="statistics__item">
+                        <p class="statistics__count">250</p>
+                        <p class="statistics__text">Экспертов <span
+                                class="statistics__text statistics__text_type_bold">преподают</span> в наших программах
+                        </p>
+                    </li>
+                </ul>
+            </section>
+			<section class="help">
+                <h2 class="help__title">Как еще <span class="help__title-italic">вы можете помочь</span></h2>
+                <article class="help__card">
+                    <div class="help__description">
+                        <h3 class="help__card-title">Стать интеллектуальным волонтером</h3>
+                        <p class="help__card-paragraph">Помогая фондам своими профессиональными навыками, Вы сохраняете средства в бюджете организаций и позволяете им помочь еще большему количеству людей.</p>
+                        <button class="help__card-btn">Перейти на сайт ProCharity</button>
+                    </div>
+                    <img src="./images/help_volunteer.svg" alt="volunteer" class="card__image">
+                </article>
+                <article class="help__card">
+                    <img src="./images/help_trustee.svg" alt="trustee" class="card__image">
+                    <div class="help__description">
+                        <h3 class="help__card-title">Стать попечителем</h3>
+                        <p class="help__card-paragraph">Инвестируя в одну из программ фонда “Друзья”, вы можете стать попечителем Московской школы профессиональной филантропии, платформы ProCharity или фонда «Друзья», а также наших благополучателей  – НКО, социальной организации/проекта или конкретного профессионала.</p>
+                        <a href="#" class="help__link">e.gosteva@friends-foundation.com</a>
+                    </div>
+                </article>
+                <artical class="help__logo">
+                    <h3 class="help__card-title">Рассказать о нас друзьям</h3>
+                    <ul class="help__logo-list">
+                        <li><img src="./images/help_logo_vk.svg" alt="logo vk"></li>
+                        <li><img src="./images/help_logo_telegram.svg" alt="logo telegramm"></li>
+                    </ul>
+                </artical>
+            </section>
+			<section class="feedback">
+				<h2 class="feedback__title">Связаться с нами</h2>
+				<p class="feedback__subtitle">Если у вас есть вопросы или предложения, напишите нам. Мы ответим в течение дня</p>
+				<form action="#" class="feedback__form">
+					<div class="feedback__description">
+						<input type="text" name="feedback-name" placeholder="  Имя" class="feedback__input">
+						<input type="email" name="feedback-email" placeholder="  E-mail" class="feedback__input">
+					</div>
+					<textarea name="feedback-textarea" id="" cols="30" rows="10" class="feedback__textarea" placeholder="    Сообщение"></textarea>
+					<div class="feedback__checkbox">
+						<input type="checkbox" name="checkbox-license" id="license">
+						<label for="license">Я согласен с <a href="#" class="feedback__link">пользовательским соглашением</a></label>
+					</div>
+					<input type="submit" value="Отправить" class="feedback__submit">
+				</form>
+			</section>
+        </main>
+		<footer class="footer footer_type_help">
+			<nav class="footer__menu footer__menu_type_help footer__container">
+			  <div class="header__logo footer__logo">
+				<img src="./images/header-logo.svg" alt="Логотип." class="header__logo-image">
+				<div class="header__text-container">
+				  <p class="header__logo-foundation">Фонд</p>
+				  <p class="header__logo-friends">Друзья</p>
+				</div>
+			  </div>
+				<ul class="menu__body-main_type_footer">
+				  <li class="menu__item-hover">
+					<a href="#" class="menu__link_type_footer">Фонд</a>
+				  </li>
+				  <li class="menu__item-hover">
+					<a href="#" class="menu__link_type_footer">Программы</a>
+				  </li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Для НКО</a></li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Для бизнеса</a></li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Блог</a></li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Партнёры</a></li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Контакты</a></li>
+				  <li class="menu__item-footer"><a href="#" class=" menu__link_type_footer">Помочь фонду</a></li>
+				</ul>
+			</nav>    
+		 
+			<ul class="footer__contacts footer__container">
+			  <li class="footer__contact-element">Написать нам: <a class="footer__link" href="">friends@friends-foundation.com</a></li>
+			  <li class="footer__contact-element">Позвонить нам: <a class="footer__link"  href="tel:+79772770717">+7 977 277-07-17</a></li>
+			  <li class="footer__contact-element footer__contact-element_type_social">Мы в соцсетях: 
+				<a class="footer__link footer__social-link" href="">
+				  <img src="./images/Instagram-social-footer-tempory.svg" alt="Инстаграм">
+				</a>
+				<a class="footer__link footer__social-link" href=""><img src="./images/telegram-social-footer-tempory.svg" alt="Телеграм"></a> 
+				</li>
+			</ul>
+			<ul class="footer__copyright footer__container">
+			 
+			  <li class="footer__copyright-element "><img class="footer__copyright-element_type_copyright" src="./images/18+.svg" alt="Ограничение по возрасту">© 2021 Фонд «Друзья» Все права защищены.</li>
+			  <li class="footer__copyright-element footer__copyright-element_type_text"><p class="footer__text">Исключительные права на фото- и иные материалы принадлежат авторам. Любое размещение материалов на сторонних ресурсах необходимо согласовывать с правообладателями.</p> <img src="./images/register-footer.png" alt="Медаль"></li>
+			</ul>
+		  </footer>
+    </div>
+    <script src="./scripts/script.js"></script>
+</body>
+
+</html>

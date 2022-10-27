@@ -1,0 +1,18 @@
+.friends__text_position{
+    margin-top: 81px;
+}
+@media screen and (max-width: 1250px){
+    .friends__text_position{
+        margin-top: 110px;
+    }
+}
+@media screen and (max-width: 1180px){
+    .friends__text_position{
+        margin-top: 167px;
+    }
+}
+@media screen and (max-width: 1100px){
+    .friends__text_position{
+        margin-top: 130px;
+    }
+}

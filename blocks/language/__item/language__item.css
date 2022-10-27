@@ -1,0 +1,33 @@
+.language__item {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.language__item:last-of-type {
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 1208px) {
+	.language__item {
+    font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 975px) {
+	.language__item {
+    font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.language__item {
+    color: #000;
+    font-size: 22px;
+    line-height: 36px;
+	}
+}

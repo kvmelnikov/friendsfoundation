@@ -1,0 +1,11 @@
+.dropdown-list__back-button {
+  background: url(../../../images/back-button.svg);
+  width: 32px;
+  height: 32px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background-position: center;
+}

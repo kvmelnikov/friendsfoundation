@@ -1,0 +1,12 @@
+.dropdown-list__program-logo_mobile {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-logo_mobile {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin: 0 0 16px 24px;
+  }
+}

@@ -1,0 +1,14 @@
+.feedback__input {
+  width: 328px;
+  height: 56px;
+  background: #f8f8f8;
+  border-radius: 56px;
+  border: none;
+  outline: none;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__input {
+    width: 327px;
+  }
+}

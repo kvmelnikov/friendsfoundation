@@ -1,0 +1,10 @@
+.form_label_type_icon-rub {
+  position: relative;
+}
+
+.form_label_type_icon-rub:after{
+  content: '₽';
+  position: absolute;
+  right: 18px;
+  top: 18px;
+}

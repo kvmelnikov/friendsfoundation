@@ -1,0 +1,19 @@
+.activities__background-item_pink-one {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 401px;
+  top: 311px;
+  background: #DE6F7E;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_pink-one {
+    left: 16px;
+    top: 220px;
+    width: 14px;
+    height: 14px;
+  }
+}

@@ -1,0 +1,10 @@
+.footer_type_help {
+    margin-top: 96px
+}
+
+@media screen and (max-width: 767px) {
+    .footer_type_help {
+        margin-top: 56px
+    }
+  }
+  

@@ -1,0 +1,9 @@
+.slider-hero__item_procharity {
+  background: url(../../../../images/slider-hero-procharity.png);
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+}

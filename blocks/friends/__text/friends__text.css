@@ -1,0 +1,44 @@
+.friends__text{
+    max-width: 647px;
+    padding-left: 125px;
+    z-index: 3;
+}
+@media screen and (max-width: 1180px){
+    .friends__text{
+        max-width: 568px;
+        padding-left: 100px;
+    }
+}
+@media screen and (max-width: 1030px){
+    .friends__text{
+        max-width: 417px;
+        padding-left: 70px;
+    }
+}
+@media screen and (max-width: 890px){
+    .friends__text{
+       margin-top: 40px;
+       max-width: 317px;
+    }
+}
+@media screen and (max-width: 630px){
+    .friends__text{
+        max-width: 226px;
+    }
+}
+@media screen and (max-width: 612px){
+    .friends__text{
+        max-width: 506px;
+        padding-left: 32px;
+        background: #F8F8F8;
+        padding-bottom: 115px;
+        margin-top: 117px;
+        padding-top: 40px;
+    }
+}
+@media screen and (max-width: 455px){
+    .friends__text{
+        padding-bottom: 57px;
+        padding-top: 36px;
+    }
+}

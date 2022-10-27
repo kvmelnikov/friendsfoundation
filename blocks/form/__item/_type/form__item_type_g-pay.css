@@ -1,0 +1,3 @@
+.form__item_type_g-pay:checked + .form__pseudo-item_type_g-pay {
+  background-image: url(../../../../images/google-pay-active.svg);
+}

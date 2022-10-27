@@ -1,0 +1,14 @@
+.dropdown-list__program_procharity:hover {
+  background: #77C5D5;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program_procharity {
+    background: #77C5D5;
+    padding-top: 61px;
+  }
+}
+
+.dropdown-list__program_procharity:hover .dropdown-list__program-image_procharity {
+  background-image: url(../../../../images/logo-procharity-dark.svg);
+}

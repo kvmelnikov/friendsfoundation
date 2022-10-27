@@ -1,0 +1,25 @@
+.activities__image_help {
+  margin: 26px 34px 43px 0;
+  margin-top: 26px;
+  margin-right: 34px;
+  margin-bottom: 43px;
+}
+
+@media screen and (max-width: 840px) {
+  .activities__image_help {
+    margin: 16px 20px 20px 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__image_help {
+    margin-right: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__image_help {
+    max-width: 82px;
+    margin: 23px 20px 18px 0;
+  }
+}

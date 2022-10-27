@@ -1,0 +1,18 @@
+.payments__form {
+  max-width: 664px;
+  width: 60%;
+}
+
+
+@media screen and (max-width: 481px) { 
+  .payments__form {
+    width: 97%;
+  }
+}
+
+@media screen and (max-width: 375px) { 
+  .payments__form {
+    max-width: 359px;
+  }
+
+}

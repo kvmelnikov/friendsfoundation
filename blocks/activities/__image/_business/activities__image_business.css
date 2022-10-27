@@ -1,0 +1,22 @@
+.activities__image_business {
+  margin: 22px 52px 36px 0;
+}
+
+@media screen and (max-width: 840px) {
+  .activities__image_business {
+    margin: 14px 32px 20px 0;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__image_business {
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__image_business {
+    margin: 18px 31px 15px 0;
+    max-width: 76px;
+  }
+}

@@ -1,0 +1,17 @@
+.dropdown-list__program-image_procharity {
+  background: url(../../../../images/logo-procharity.svg);
+  background-position: center;
+  width: 48px;
+  height: 48px;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-image_procharity {
+    background: url(../../../../images/logo-procharity-dark.svg);
+    width: 32px;
+    height: 32px;
+    box-sizing: border-box;
+    background-size: cover;
+  }
+}

@@ -1,0 +1,27 @@
+.dropdown-list__program-logo_desktop {
+  display: flex;
+  gap: 16px;
+  margin: 30px 0 0 40px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1128px) {
+  .dropdown-list__program-logo_desktop {
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 854px) {
+  .dropdown-list__program-logo_desktop {
+    margin-left: 14px;
+    margin-top: 14px;
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .dropdown-list__program-logo_desktop {
+    display: none;
+  }
+}

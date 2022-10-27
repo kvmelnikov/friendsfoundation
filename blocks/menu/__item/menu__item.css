@@ -1,0 +1,15 @@
+@media screen and (max-width: 767px) {
+	.menu__item {
+    position: static;
+	}
+
+	.menu__item:first-of-type {
+    margin-top: 56px;
+	}
+}
+
+.menu__item:hover .menu__sub-list {
+	pointer-events: all;
+	opacity: 1;
+	visibility: visible;
+}

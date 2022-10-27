@@ -1,0 +1,23 @@
+.program__image_type_procharity-notebook {
+    position: relative;
+    padding-top: 86px;
+}
+
+@media screen and (max-width: 969px) {
+    .program__image_type_procharity-notebook {
+        padding-top: 16px;
+    }
+}
+
+
+@media screen and (max-width: 793px) {
+    .program__image_type_procharity-notebook {
+        padding-top: 124px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .program__image_type_procharity-notebook {
+        padding-top: 172px;
+    }
+}

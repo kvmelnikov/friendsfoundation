@@ -1,0 +1,25 @@
+.header__logo-friends {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 918px) {
+	.header__logo-friends {
+    font-size: 10px;
+    line-height: 11px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.header__logo-friends {
+    font-size: 12px;
+    line-height: 12px;
+	}
+}

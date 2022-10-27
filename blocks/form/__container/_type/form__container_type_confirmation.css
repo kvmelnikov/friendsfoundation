@@ -1,0 +1,5 @@
+.form__container_type_confirmation {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+}

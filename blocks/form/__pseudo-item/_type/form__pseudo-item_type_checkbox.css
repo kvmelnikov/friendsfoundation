@@ -1,0 +1,7 @@
+.form__pseudo-item_type_checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  background-color: #fff;
+}
