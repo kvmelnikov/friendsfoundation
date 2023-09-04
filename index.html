@@ -8,12 +8,11 @@
   <title>Добро</title>
   <link rel="stylesheet" href="./pages/index.css">
 </head>
-
 <body class="body">
   <div class="page">
     <header class="header">
-      <button class="header__burger" aria-label="Открыть меню">
-				<span></span>
+      <button type="button" class="header__burger" aria-label="Открыть меню">
+			  <span class="header__span-burger"></span>
 			</button>
       <div class="header__logo">
         <img src="./images/header-logo.svg" alt="Логотип." class="header__logo-image">
@@ -27,8 +26,8 @@
           <button type="button" name="close" class="menu__button-close"><span class="menu__sr-only">Mobile menu</span>
           </button>
           <ul class="menu__body-main">
-            <li class="menu__item menu__item-hover">
-              <a href="#" class="menu__link menu__link-dropdown">Фонд</a>
+            <li class="menu__item menu__link-hover">
+              <a href="#" class="menu__link menu__dropdown-item">Фонд</a>
               <ul class="menu__sub-list menu__list-about dropdown-list">
                 <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
                 <ul class="dropdown-list__item-container">
@@ -71,8 +70,8 @@
                 </ul>
               </ul>
             </li>
-            <li class="menu__item menu__item-hover">
-              <a href="#" class="menu__link menu__link-dropdown">Программы</a>
+            <li class="menu__item menu__link-hover">
+              <a href="#" class="menu__link menu__dropdown-item">Программы</a>
               <ul class="menu__sub-list menu__list-programs dropdown-list">
                 <li class="dropdown-list__item dropdown-list__mobile-back"><button type="button" name="back" class="dropdown-list__link dropdown-list__back-button"><span class="menu__sr-only">Go Back</span></button></li>
                 <ul class="dropdown-list__programs-container">
@@ -103,7 +102,7 @@
                       </div>
                       <p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Московская школа профессиональной филантропии</p>
                       <p class="dropdown-list__program-pharagraph">Повышение квалификации и профессионализма сотрудников НКО</p>
-                      <button class="dropdown-list__program-button">О программе</button>
+                      <button type="button" class="dropdown-list__program-button">О программе</button>
                     </a>
                   </li>
                   <li class="dropdown-list__program dropdown-list__program_team-professionals">
@@ -118,7 +117,7 @@
                       </div>
                       <p class="dropdown-list__logo-text dropdown-list__logo-text_mobile">Команда профессионалов</p>
                       <p class="dropdown-list__program-pharagraph">Стратегическое развитие и менторская поддержка некоммерческих организаций</p>
-                      <button class="dropdown-list__program-button">О программе</button>
+                      <button type="button" class="dropdown-list__program-button">О программе</button>
                     </a>
                   </li>
                 </ul>
@@ -131,26 +130,24 @@
             <li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
           </ul>
           <ul class="language menu__list-language">
-            <li class="menu__language"><a href="#" class="language__russian">Ру</a></li>
-            <li class="menu__language"><a href="#" class="language__english">En</a></li>
+            <li class="menu__language"><a href="#" class="language__item">Ру</a></li>
+            <li class="menu__language"><a href="#" class="language__item">En</a></li>
           </ul>
           <ul class="social menu__list-social">
-            <li class="social__link-vk social__link-vk_dark"><a href="#" class="menu__social-item"></a></li>
-            <li class="social__link-tg social__link-tg_dark"><a href="#" class="menu__social-item"></a></li>
+            <li class="social__icon-vk social__icon-vk_dark"><a href="#" class="menu__social-icon"></a></li>
+            <li class="social__icon-tg social__icon-tg_dark"><a href="#" class="menu__social-icon"></a></li>
           </ul>
         </ul>
       </nav>
       <div class="social header__social">
-        <a href="#" class="header__social-link social__link-vk social__link-vk_white"></a>
-        <a href="#" class="header__social-link social__link-tg social__link-tg_white"></a>
+        <a href="#" class="header__social-icon social__icon-vk social__icon-vk_white"></a>
+        <a href="#" class="header__social-icon social__icon-tg social__icon-tg_white"></a>
       </div>
       <div class="language header__language">
-        <a href="#" class="language__russian">Ру</a>
-        <a href="#" class="language__english">En</a>
+        <a href="#" class="language__item">Ру</a>
+        <a href="#" class="language__item">En</a>
       </div>
-      <div class="header__donations">
-        <button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
-      </div>
+      <button onclick="document.location='./help-fund.html'" type="button" name="help" class="header__donations-button">Помочь фонду</button>
     </header>
     <main class="content">
       <!--Hero-->
@@ -162,8 +159,8 @@
                 <div class="slider-hero__item slider-hero__item_help-foundation">
                   <div class="slider-hero__overlay"></div>
                   <div class="slider-hero__container">
-                    <h1 class="slider-hero__title slider-hero__title_foundation">Мы <span class="slider-hero__title-italic">помогаем</span> фондам, чтобы они <span class="slider-hero__title-italic">помогали</span> другим</h1>
-                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Фонд &laquo;Друзья&raquo;&nbsp;&mdash;</span> это фонд для тех, кто хочет приносить пользу другим людям ничего за&nbsp;это не&nbsp;беря.</p>
+                    <h1 class="slider-hero__title slider-hero__title_foundation">Мы <span class="slider-hero__title-span">помогаем</span> фондам, чтобы они <span class="slider-hero__title-span">помогали</span> другим</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-span">Фонд &laquo;Друзья&raquo;&nbsp;&mdash;</span> это фонд для тех, кто хочет приносить пользу другим людям ничего за&nbsp;это не&nbsp;беря.</p>
                     <button onclick="document.location='#our-programs'" type="button" name="button" class="slider-hero__button">Наши программы</button>
                   </div>
                 </div>
@@ -171,33 +168,33 @@
               <div class="slider__item">
                 <div class="slider-hero__item slider-hero__item_school">
                   <div class="slider-hero__container">
-                    <h1 class="slider-hero__title">Создаем настоящую <span class="slider-hero__title-italic">школу</span>, <span class="slider-hero__title-italic">институт</span> благотворительности</h1>
-                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; это фактически акселератор НКО-проектов, который создает сообщество профессионалов.</p>
+                    <h1 class="slider-hero__title">Создаем настоящую <span class="slider-hero__title-span">школу</span>, <span class="slider-hero__title-span">институт</span> благотворительности</h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-span">Московская школа профессиональной филантропии</span>&nbsp;&mdash; это фактически акселератор НКО-проектов, который создает сообщество профессионалов.</p>
                   </div>
                 </div>
               </div>
               <div class="slider__item">
                 <div class=" slider-hero__item slider-hero__item_procharity">
                   <div class="slider-hero__container">
-                    <h1 class="slider-hero__title">Профессионализм и опыт <span class="slider-hero__title-italic">в дар</span></h1>
-                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-bold">Московская школа профессиональной филантропии</span>&nbsp;&mdash; cкорая интеллектуальная помощь для благотворительных фондов.</p>
+                    <h1 class="slider-hero__title">Профессионализм и опыт <span class="slider-hero__title-span">в дар</span></h1>
+                    <p class="slider-hero__subtitle"><span class="slider-hero__subtitle-span">Московская школа профессиональной филантропии</span>&nbsp;&mdash; cкорая интеллектуальная помощь для благотворительных фондов.</p>
                   </div>
                 </div>
               </div>
             </div>
           </div>
     
-          <button class="slider__control slider-hero__controle" data-slide="prev">
+          <button type="button" class="slider__control slider-hero__controle" data-slide="prev">
             <span class="sr-only">Go Left</span>
           </button>
-          <button class="slider__control slider-hero__controle" data-slide="next">
+          <button type="button" class="slider__control slider-hero__controle" data-slide="next">
             <span class="sr-only">Go Right</span>
           </button>
     
           <ol class="slider__indicators">
-            <li class="slider__indicator slider-hero__indicator" data-slide-to="0"></li>
-            <li class="slider__indicator slider-hero__indicator" data-slide-to="1"></li>
-            <li class="slider__indicator slider-hero__indicator" data-slide-to="2"></li>
+            <li class="slider__indicator slider-hero__item-flipping" data-slide-to="0"></li>
+            <li class="slider__indicator slider-hero__item-flipping" data-slide-to="1"></li>
+            <li class="slider__indicator slider-hero__item-flipping" data-slide-to="2"></li>
           </ol>
         </div>
       </section>
@@ -300,27 +297,23 @@
         <ul class="values__list">
           <li class="values__value-item">
             <img src="./images/values/student.svg" alt="Студент" class="values__image">
-            <p class="values__text">Высокий профессионализм сотрудников</p>
+            <p class="values__text">Образование и профессионализм</p>
           </li>
           <li class="values__value-item">
-            <img src="./images/values/finanse.svg" alt="Финансы" class="values__image">
-            <p class="values__text">Финансовая устойчивость</p>
+            <img src="./images/values/plan.svg" alt="Планирование" class="values__image">
+            <p class="values__text">Планирование и устойчивость</p>
           </li>
           <li class="values__value-item">
             <img src="./images/values/systems-approach.svg" alt="Пазл" class="values__image">
-            <p class="values__text">Системный подход к решению социальной проблемы</p>
+            <p class="values__text">Системный подход к&nbsp;решениям</p>
+          </li> 
+          <li class="values__value-item">
+            <img src="./images/values/unity.svg" alt="Рукопожатие" class="values__image">
+            <p class="values__text">Объединение и&nbsp;партнерство</p>
           </li>
           <li class="values__value-item">
             <img src="./images/values/effective.svg" alt="Рука с цветком" class="values__image">
             <p class="values__text">Измеримый эффект</p>
-          </li>
-          <li class="values__value-item">
-            <img src="./images/values/unity.svg" alt="Рукопожатие" class="values__image">
-            <p class="values__text">Объединение и партнерство</p>
-          </li>
-          <li class="values__value-item">
-            <img src="./images/values/friendship.svg" alt="Воздушный шарик" class="values__image">
-            <p class="values__text">Дружба и юмор</p>
           </li>
         </ul>
       </section> 
@@ -656,6 +649,8 @@
       </section>
       <!--payments-->
       <section class="payments payments_type_mini">
+      <h3 class="payments__title">Поддержите «друзей»<br> или станьте<br><span class="payments__cursive"> нашим партнером</span></h3>
+      <form class="payments__form form" name = "miniForm">
         <h3 class="payments__title">Поддержите «друзей»<br> или станьте<br><span class="payments__cursive"> нашим партнером</span></h3>
         <form class="payments__form form">
           <h3 class="form__heading">Поддержать Друзей:</h3>

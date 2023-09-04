@@ -1,24 +1,24 @@
 .program__image_type_professionals {
     position: relative;
     top: 2px;
-    padding-top: 0;
+    padding-top: 2px;
 }
 
 @media screen and (max-width: 1074px) {
     .program__image_type_professionals{
-        padding-top: 42px;
+        padding-top: 44px;
     }
 }
 
 @media screen and (max-width: 740px) {
     .program__image_type_professionals{
-        padding-top: 146px;
+        padding-top: 148px;
     }
 }
 
 @media screen and (max-width: 640px) {
     .program__image_type_professionals{
-        padding-top: 156px;
+        padding-top: 158px;
     }
 }
 

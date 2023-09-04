@@ -1,4 +1,4 @@
-.header__social-link {
+.header__social-icon {
   width: 24px;
   height: 24px;
   margin: 0;
@@ -6,14 +6,14 @@
 }
 
 @media screen and (max-width: 975px) {
-	.header__social-link {
+	.header__social-icon {
     width: 16px;
     height: 16px;
 	}
 }
 
 @media screen and (max-width: 767px) {
-	.header__social-link {
+	.header__social-icon {
 		display: none;
 	}
 }
