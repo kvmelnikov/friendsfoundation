@@ -1,0 +1,36 @@
+.useful__card{
+    background: rgba(235, 233, 230, .4);
+    width: 504px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-self: center;
+    z-index: 10;
+    transition: .5s;
+    overflow: hidden;
+}
+
+.useful__card:hover{
+    background: white;
+    box-shadow:0.3em 0.3em 1em rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+.useful__card .useful__logo {
+    -moz-transition: all 1s ease-out;
+    -o-transition: all 1s ease-out;
+    -webkit-transition: all 1s ease-out;
+    transition: all 1s ease-out;
+    }
+.useful__card:hover .useful__logo{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+@media screen and (max-width: 500px){
+    .useful__card{
+        display: block;
+        position: relative;
+        max-width: 310px;
+    }
+}

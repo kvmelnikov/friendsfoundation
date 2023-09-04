@@ -1,0 +1,32 @@
+.slider-hero__item {
+  min-height: 626px;
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1279px) {
+  .slider-hero__item {
+    min-height: 570px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .slider-hero__item {
+    min-height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .slider-hero__item {
+    min-height: 400px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .slider-hero__item {
+    min-height: 486px;
+  }
+}

@@ -1,0 +1,20 @@
+.form_type_card {
+    z-index: 1;
+    width: 70%;
+    max-width: 680px;
+    margin: -220px auto 0 auto;
+    padding: 56px 0 92px 0;
+}
+
+
+@media screen and (max-width: 890px) {
+    .form_type_card {
+        margin-top: -170px;
+        padding: 24px 0 24px 0;
+    }
+}
+@media screen and (max-width: 503px) {
+    .form_type_card {
+        margin-top: -139px;
+    }
+}

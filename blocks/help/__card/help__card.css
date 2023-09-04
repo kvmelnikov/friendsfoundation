@@ -1,0 +1,22 @@
+.help__card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 72px;
+  align-items: center;
+}
+
+.help__card:first-of-type {
+  justify-content: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+  .help__card {
+    flex-direction: column;
+    max-width: 327px;
+    margin: 0 auto;
+  }
+
+  .help__card:last-of-type {
+    flex-direction: column-reverse;
+  }
+}

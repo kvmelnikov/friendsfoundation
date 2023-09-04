@@ -1,0 +1,16 @@
+.form__line-card {
+  width: 80%;
+  max-width: 369px;
+  background-color: #D0CFCC;
+  height: 52px;
+  grid-column: 1/3;
+  grid-row: 2/3;
+  justify-self: end;
+}
+
+
+@media screen and (max-width: 890px) { 
+  .form__line-card {
+    display: none;
+  }
+ }

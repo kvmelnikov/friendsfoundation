@@ -1,0 +1,25 @@
+.activities__background-item_mint-one {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: 176px;
+  top: 267px;
+  background: #77C5D5;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 690px) {
+  .activities__background-item_mint-one {
+    left: 60px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_mint-one {
+    width: 4px;
+    height: 4px;
+    top: 262px;
+    left: 38px;
+  }
+}

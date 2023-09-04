@@ -1,0 +1,33 @@
+.activities__background-item_blue {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  left: 671px;
+  top: 167px;
+  background: #528CBE;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+@media screen and (max-width: 840px) {
+  .activities__background-item_blue {
+    top: 100px;
+    left: 470px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .activities__background-item_blue {
+    top: 130px;
+    left: 320px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .activities__background-item_blue {
+    top: 130px;
+    left: 326px;
+    width: 14px;
+    height: 14px;
+  }
+}

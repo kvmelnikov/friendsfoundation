@@ -1,0 +1,11 @@
+.dropdown-list__mobile-back {
+  display: none;
+	box-sizing: border-box;
+  background-size: cover;
+}
+
+@media screen and (max-width: 767px) {
+	.dropdown-list__mobile-back {
+		display: block;
+	}
+}

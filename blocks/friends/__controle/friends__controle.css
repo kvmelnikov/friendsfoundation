@@ -1,0 +1,13 @@
+.friends__controle {
+    top: calc(45% - (var(--size) / 2));
+  }
+  @media screen and (max-width: 890px){
+    .friends__controle {
+        top: calc(55% - (var(--size) / 2));
+      }
+}
+  @media screen and (max-width: 612px){
+    .friends__controle {
+        display: none;
+      }
+}

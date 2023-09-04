@@ -1,0 +1,13 @@
+.feedback__title {
+  margin: 0 0 8px 0;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 57px;
+}
+
+@media screen and (max-width: 767px) {
+  .feedback__title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}

@@ -1,0 +1,7 @@
+.form__container_type_holders {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 268px);
+    column-gap: 16px;
+    row-gap: 16px;
+    margin-top: 32px;
+}

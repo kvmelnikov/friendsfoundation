@@ -1,0 +1,9 @@
+.friends__slider-container{
+    min-height: 546px;
+    position: relative;
+  }
+  @media screen and (max-width: 1100px){
+    .friends__slider-container{
+      min-height: 470px;
+    }
+  }

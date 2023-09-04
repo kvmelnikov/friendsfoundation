@@ -1,0 +1,15 @@
+.form__label_type_payment {
+    width: 60%;
+    max-width: 288px;
+    font-family:'Inter', Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    height: 32px;
+    color: #999999;
+}
+
+.form__label_type_payment:nth-child(2) {
+    margin-left: -24px;
+}

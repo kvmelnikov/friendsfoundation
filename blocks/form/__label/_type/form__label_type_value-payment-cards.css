@@ -1,0 +1,12 @@
+.form__label_type_value-payment-cards {
+    
+}
+
+@media screen and (max-width: 480px) {
+    .form__label_type_value-payment-cards {
+        max-width: 311px;
+        width: 100%;
+        margin-top: 0;
+    }    
+
+}

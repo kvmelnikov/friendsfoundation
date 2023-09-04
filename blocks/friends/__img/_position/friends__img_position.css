@@ -1,0 +1,8 @@
+.friends__img_position{
+    margin-top: 18px;
+}
+@media screen and (max-width: 1250px){
+    .friends__img_position{
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,14 @@
+.useful__text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 44px;
+    max-width: 303px;
+    padding-left: 44px;
+}
+@media screen and (max-width: 500px){
+    .useful__text{
+        max-width: 239px;
+        padding-left: 24px;
+        padding-top: 32px;
+    }
+}
