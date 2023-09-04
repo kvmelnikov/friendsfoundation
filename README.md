@@ -3,6 +3,6 @@
 
 
 ## <a id="techno">Технологии</a>
--  HTML, CSS 
-
-ссылка на готовый продакш[https://friendsfoundation.ru/]
+-  HTML, CSS
+  
+https://friendsfoundation.ru/
